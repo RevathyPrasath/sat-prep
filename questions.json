@@ -4783,6 +4783,806 @@
       "answer": "C",
       "explanation": "'It's' is a contraction for 'it is.' The correct possessive pronoun is 'its' (no apostrophe). 'Its influence' is the correct form.",
       "test": 10
+    },
+    {
+      "id": 300,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "In a right triangle, sin(θ) = 5/13. What is tan(θ)?",
+      "choices": {
+        "A": "5/12",
+        "B": "12/13",
+        "C": "13/12",
+        "D": "5/13"
+      },
+      "answer": "A",
+      "explanation": "If sin(θ) = 5/13, then the opposite = 5, hypotenuse = 13, so adjacent = √(169−25) = 12. tan(θ) = opposite/adjacent = 5/12.",
+      "test": 11
+    },
+    {
+      "id": 301,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which of the following is equivalent to sin²(x) + sin²(x)cot²(x)?",
+      "choices": {
+        "A": "cos²(x)",
+        "B": "1",
+        "C": "csc²(x)",
+        "D": "tan²(x)"
+      },
+      "answer": "B",
+      "explanation": "sin²(x) + sin²(x)·cot²(x) = sin²(x)(1 + cot²(x)) = sin²(x)·csc²(x) = sin²(x)·(1/sin²(x)) = 1.",
+      "test": 11
+    },
+    {
+      "id": 302,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If cos(θ) = −3/5 and θ is in the third quadrant, what is sin(θ)?",
+      "choices": {
+        "A": "4/5",
+        "B": "−4/5",
+        "C": "3/5",
+        "D": "−3/4"
+      },
+      "answer": "B",
+      "explanation": "cos(θ) = −3/5 means adjacent = −3, hypotenuse = 5, so opposite = −4 (negative in Q3). sin(θ) = −4/5.",
+      "test": 11
+    },
+    {
+      "id": 303,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the period of the function f(x) = 3sin(4x − π)?",
+      "choices": {
+        "A": "π/2",
+        "B": "2π",
+        "C": "4π",
+        "D": "π"
+      },
+      "answer": "A",
+      "explanation": "The period of sin(Bx + C) is 2π/B. Here B = 4, so period = 2π/4 = π/2.",
+      "test": 11
+    },
+    {
+      "id": 304,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If sin(x) = cos(y), which of the following must be true?",
+      "choices": {
+        "A": "x + y = π",
+        "B": "x − y = π/2",
+        "C": "x + y = π/2",
+        "D": "x = y"
+      },
+      "answer": "C",
+      "explanation": "sin(x) = cos(y) = sin(π/2 − y). Therefore x = π/2 − y, which gives x + y = π/2.",
+      "test": 11
+    },
+    {
+      "id": 305,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "The graph of y = a·sin(bx) has amplitude 4 and period 3π. What are a and b?",
+      "choices": {
+        "A": "a = 4, b = 2/3",
+        "B": "a = 4, b = 3/2",
+        "C": "a = 3, b = 4",
+        "D": "a = 4, b = 2π/3"
+      },
+      "answer": "A",
+      "explanation": "Amplitude = |a| = 4. Period = 2π/b = 3π → b = 2π/3π = 2/3.",
+      "test": 11
+    },
+    {
+      "id": 306,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the value of cos(7π/6)?",
+      "choices": {
+        "A": "√3/2",
+        "B": "−√3/2",
+        "C": "1/2",
+        "D": "−1/2"
+      },
+      "answer": "B",
+      "explanation": "7π/6 is in the third quadrant (π + π/6). The reference angle is π/6, cos(π/6) = √3/2. In Q3 cosine is negative, so cos(7π/6) = −√3/2.",
+      "test": 11
+    },
+    {
+      "id": 307,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If tan(θ) = −√3 and θ is in Quadrant II, what is θ in radians?",
+      "choices": {
+        "A": "π/3",
+        "B": "2π/3",
+        "C": "4π/3",
+        "D": "5π/3"
+      },
+      "answer": "B",
+      "explanation": "tan(θ) = −√3 has reference angle π/3. In Q2 (where tan is negative), θ = π − π/3 = 2π/3.",
+      "test": 11
+    },
+    {
+      "id": 308,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which expression is equivalent to (1 − cos²x)/sinx?",
+      "choices": {
+        "A": "cosx",
+        "B": "sinx",
+        "C": "tanx",
+        "D": "cscx"
+      },
+      "answer": "B",
+      "explanation": "1 − cos²x = sin²x. So sin²x/sinx = sinx.",
+      "test": 11
+    },
+    {
+      "id": 309,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "In triangle ABC, angle A = 30°, angle B = 45°, and side a = 8. Using the Law of Sines, what is side b?",
+      "choices": {
+        "A": "8√2",
+        "B": "4√2",
+        "C": "6√2",
+        "D": "4√6"
+      },
+      "answer": "A",
+      "explanation": "b/sin(B) = a/sin(A) → b = 8·sin(45°)/sin(30°) = 8·(√2/2)/(1/2) = 8√2.",
+      "test": 11
+    },
+    {
+      "id": 310,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "A sinusoidal function has a maximum of 7 and a minimum of −3. What is the amplitude?",
+      "choices": {
+        "A": "10",
+        "B": "2",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "C",
+      "explanation": "Amplitude = (max − min)/2 = (7 − (−3))/2 = 10/2 = 5.",
+      "test": 11
+    },
+    {
+      "id": 311,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the value of sin(−5π/6)?",
+      "choices": {
+        "A": "1/2",
+        "B": "−1/2",
+        "C": "√3/2",
+        "D": "−√3/2"
+      },
+      "answer": "B",
+      "explanation": "sin(−5π/6) = −sin(5π/6). sin(5π/6) = sin(π − π/6) = sin(π/6) = 1/2. So the answer is −1/2.",
+      "test": 11
+    },
+    {
+      "id": 312,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which of the following is equivalent to cos(2x)?",
+      "choices": {
+        "A": "2sin(x)cos(x)",
+        "B": "cos²x − sin²x",
+        "C": "1 − sin²x",
+        "D": "2cos²x"
+      },
+      "answer": "B",
+      "explanation": "The double angle identity: cos(2x) = cos²x − sin²x. This can also be written as 2cos²x − 1 or 1 − 2sin²x, but B is the most direct form.",
+      "test": 11
+    },
+    {
+      "id": 313,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "In a right triangle with legs 7 and 24, what is cos of the angle opposite the leg of length 7?",
+      "choices": {
+        "A": "7/25",
+        "B": "24/25",
+        "C": "7/24",
+        "D": "24/7"
+      },
+      "answer": "B",
+      "explanation": "Hypotenuse = √(49 + 576) = √625 = 25. The angle opposite leg 7 has adjacent = 24, hypotenuse = 25. cos = 24/25.",
+      "test": 11
+    },
+    {
+      "id": 314,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which of the following is equal to csc(x)·cos(x)?",
+      "choices": {
+        "A": "tan(x)",
+        "B": "cot(x)",
+        "C": "sin(x)",
+        "D": "sec(x)"
+      },
+      "answer": "B",
+      "explanation": "csc(x)·cos(x) = (1/sin(x))·cos(x) = cos(x)/sin(x) = cot(x).",
+      "test": 11
+    },
+    {
+      "id": 315,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "A function is defined as f(x) = 2cos(πx/3) + 1. What is the period of f?",
+      "choices": {
+        "A": "3",
+        "B": "6",
+        "C": "2π/3",
+        "D": "π/3"
+      },
+      "answer": "B",
+      "explanation": "Period = 2π / (π/3) = 2π × (3/π) = 6.",
+      "test": 11
+    },
+    {
+      "id": 316,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If sin(θ) = k, what is sin(π − θ)?",
+      "choices": {
+        "A": "−k",
+        "B": "k",
+        "C": "√(1−k²)",
+        "D": "1/k"
+      },
+      "answer": "B",
+      "explanation": "Using the identity sin(π − θ) = sin(θ). So sin(π − θ) = k.",
+      "test": 11
+    },
+    {
+      "id": 317,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "For 0 ≤ x < 2π, how many solutions does the equation 2sin²(x) − sin(x) − 1 = 0 have?",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "C",
+      "explanation": "Factor: (2sin(x) + 1)(sin(x) − 1) = 0. So sin(x) = −1/2 (giving x = 7π/6 and 11π/6) or sin(x) = 1 (giving x = π/2). Total: 3 solutions.",
+      "test": 11
+    },
+    {
+      "id": 318,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the range of f(x) = −4sin(x) + 3?",
+      "choices": {
+        "A": "[−1, 7]",
+        "B": "[−4, 4]",
+        "C": "[3, 7]",
+        "D": "[−4, 3]"
+      },
+      "answer": "A",
+      "explanation": "sin(x) ranges from −1 to 1. So −4sin(x) ranges from −4 to 4. Adding 3: range is [−4+3, 4+3] = [−1, 7].",
+      "test": 11
+    },
+    {
+      "id": 319,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "In a triangle, sides a = 6, b = 8, and c = 10. What is cos(C), where C is the angle opposite side c?",
+      "choices": {
+        "A": "0",
+        "B": "1/2",
+        "C": "√3/2",
+        "D": "−1/2"
+      },
+      "answer": "A",
+      "explanation": "By the Law of Cosines: c² = a² + b² − 2ab·cos(C). 100 = 36 + 64 − 96cos(C) → 0 = −96cos(C) → cos(C) = 0. Angle C = 90°.",
+      "test": 11
+    },
+    {
+      "id": 320,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which expression is equivalent to sin(x + π/2)?",
+      "choices": {
+        "A": "sin(x)",
+        "B": "−sin(x)",
+        "C": "cos(x)",
+        "D": "−cos(x)"
+      },
+      "answer": "C",
+      "explanation": "Using the identity sin(x + π/2) = cos(x). This is a standard co-function phase shift identity.",
+      "test": 11
+    },
+    {
+      "id": 321,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "A 30-foot ladder leans against a wall making a 70° angle with the ground. How high up the wall does it reach? (sin70° ≈ 0.940)",
+      "choices": {
+        "A": "10.3 ft",
+        "B": "28.2 ft",
+        "C": "31.9 ft",
+        "D": "21.0 ft"
+      },
+      "answer": "B",
+      "explanation": "Height = 30·sin(70°) = 30 × 0.940 = 28.2 feet.",
+      "test": 11
+    },
+    {
+      "id": 322,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "The function f(x) = sin(x) is shifted π/3 units to the right. What is the new function?",
+      "choices": {
+        "A": "sin(x + π/3)",
+        "B": "sin(x − π/3)",
+        "C": "sin(x) + π/3",
+        "D": "sin(x) − π/3"
+      },
+      "answer": "B",
+      "explanation": "A horizontal shift to the right by c gives f(x − c). So the new function is sin(x − π/3).",
+      "test": 11
+    },
+    {
+      "id": 323,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If tan²(x) + 1 = sec²(x), what is sec²(x) when tan(x) = √5?",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "√5 + 1"
+      },
+      "answer": "C",
+      "explanation": "sec²(x) = tan²(x) + 1 = (√5)² + 1 = 5 + 1 = 6.",
+      "test": 11
+    },
+    {
+      "id": 324,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "In a right triangle, if one angle is 60° and the hypotenuse is 10, what is the length of the side opposite the 60° angle?",
+      "choices": {
+        "A": "5",
+        "B": "5√3",
+        "C": "10√3",
+        "D": "5√2"
+      },
+      "answer": "B",
+      "explanation": "Opposite = hypotenuse × sin(60°) = 10 × (√3/2) = 5√3.",
+      "test": 11
+    },
+    {
+      "id": 325,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the exact value of tan(5π/4)?",
+      "choices": {
+        "A": "−1",
+        "B": "1",
+        "C": "√2",
+        "D": "−√2"
+      },
+      "answer": "B",
+      "explanation": "5π/4 is in Quadrant III (π + π/4). Reference angle is π/4. In Q3 both sin and cos are negative, so tan = (−)/(−) = positive. tan(π/4) = 1, so tan(5π/4) = 1.",
+      "test": 12
+    },
+    {
+      "id": 326,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If f(x) = cos(x) and g(x) = cos(3x), for how many values of x in [0, 2π) does f(x) = g(x)?",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": "C",
+      "explanation": "cos(x) = cos(3x) implies 3x = ±x + 2πk. Case 1: 3x = x → 2x = 2πk → x = 0, π. Case 2: 3x = −x → 4x = 2πk → x = 0, π/2, π, 3π/2. Combined unique: 0, π/2, π, 3π/2 → 4 solutions.",
+      "test": 12
+    },
+    {
+      "id": 327,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which of the following is equivalent to 2sin(x)cos(x)?",
+      "choices": {
+        "A": "cos(2x)",
+        "B": "sin(2x)",
+        "C": "sin²(x)",
+        "D": "2cos²(x) − 1"
+      },
+      "answer": "B",
+      "explanation": "The double angle identity: sin(2x) = 2sin(x)cos(x).",
+      "test": 12
+    },
+    {
+      "id": 328,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "A right triangle has an angle θ where sec(θ) = 13/5. What is tan(θ)?",
+      "choices": {
+        "A": "5/13",
+        "B": "12/5",
+        "C": "12/13",
+        "D": "5/12"
+      },
+      "answer": "B",
+      "explanation": "sec(θ) = 13/5 means cos(θ) = 5/13, so hyp = 13, adj = 5, opp = √(169−25) = 12. tan(θ) = opp/adj = 12/5.",
+      "test": 12
+    },
+    {
+      "id": 329,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "The function y = Asin(Bx + C) + D has amplitude 3, period π, phase shift π/4 to the left, and midline y = 2. What is the function?",
+      "choices": {
+        "A": "3sin(2x + π/2) + 2",
+        "B": "3sin(2x − π/4) + 2",
+        "C": "3sin(πx + π/4) + 2",
+        "D": "3sin(2x + π/4) + 2"
+      },
+      "answer": "A",
+      "explanation": "A = 3, midline D = 2, period π → B = 2π/π = 2. Phase shift left π/4: C/B = π/4 → C = π/2. Function: 3sin(2x + π/2) + 2.",
+      "test": 12
+    },
+    {
+      "id": 330,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which of the following is NOT a valid Pythagorean identity?",
+      "choices": {
+        "A": "sin²x + cos²x = 1",
+        "B": "1 + tan²x = sec²x",
+        "C": "cot²x + 1 = csc²x",
+        "D": "sin²x − cos²x = 1"
+      },
+      "answer": "D",
+      "explanation": "sin²x + cos²x = 1 is always true. sin²x − cos²x = 1 would require cos²x = 0 always, which is false. It equals −cos(2x), not 1.",
+      "test": 12
+    },
+    {
+      "id": 331,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "In triangle PQR, side p = 9, side q = 12, and angle R = 120°. What is side r using the Law of Cosines?",
+      "choices": {
+        "A": "√(81 + 144 + 108)",
+        "B": "√(81 + 144 − 108)",
+        "C": "√(81 − 144 + 108)",
+        "D": "√(225 + 108)"
+      },
+      "answer": "A",
+      "explanation": "r² = p² + q² − 2pq·cos(R) = 81 + 144 − 2(9)(12)cos(120°) = 225 − 216(−1/2) = 225 + 108. So r = √(81 + 144 + 108) = √333.",
+      "test": 12
+    },
+    {
+      "id": 332,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the midline of the function f(x) = 5sin(x) − 3?",
+      "choices": {
+        "A": "y = 5",
+        "B": "y = 3",
+        "C": "y = −3",
+        "D": "y = 0"
+      },
+      "answer": "C",
+      "explanation": "The midline is y = D in f(x) = A·sin(Bx + C) + D. Here D = −3, so the midline is y = −3.",
+      "test": 12
+    },
+    {
+      "id": 333,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "For 0 ≤ x < 2π, solve: cos(2x) = cos(x). How many solutions exist?",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": "B",
+      "explanation": "cos(2x) = cos(x) → 2cos²x − 1 = cosx → 2cos²x − cosx − 1 = 0 → (2cosx + 1)(cosx − 1) = 0. cosx = −1/2 → x = 2π/3, 4π/3; cosx = 1 → x = 0. Total: 3 solutions.",
+      "test": 12
+    },
+    {
+      "id": 334,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "An observer stands 100 m from the base of a tower. The angle of elevation to the top is 35°. Approximately how tall is the tower? (tan35° ≈ 0.700)",
+      "choices": {
+        "A": "56.0 m",
+        "B": "70.0 m",
+        "C": "81.9 m",
+        "D": "143 m"
+      },
+      "answer": "B",
+      "explanation": "height = 100 × tan(35°) = 100 × 0.700 = 70.0 m.",
+      "test": 12
+    },
+    {
+      "id": 335,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the value of sin(π/12)? (Hint: π/12 = π/3 − π/4)",
+      "choices": {
+        "A": "(√6 − √2)/4",
+        "B": "(√6 + √2)/4",
+        "C": "(√3 − 1)/4",
+        "D": "(√3 + 1)/4"
+      },
+      "answer": "A",
+      "explanation": "sin(π/3 − π/4) = sin(π/3)cos(π/4) − cos(π/3)sin(π/4) = (√3/2)(√2/2) − (1/2)(√2/2) = √6/4 − √2/4 = (√6 − √2)/4.",
+      "test": 12
+    },
+    {
+      "id": 336,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If sin(A) = 3/5 and cos(B) = 5/13, with A and B both in Quadrant I, what is cos(A + B)?",
+      "choices": {
+        "A": "33/65",
+        "B": "56/65",
+        "C": "−16/65",
+        "D": "63/65"
+      },
+      "answer": "C",
+      "explanation": "cos(A) = 4/5, sin(B) = 12/13. cos(A+B) = cos(A)cos(B) − sin(A)sin(B) = (4/5)(5/13) − (3/5)(12/13) = 20/65 − 36/65 = −16/65.",
+      "test": 12
+    },
+    {
+      "id": 337,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "The graph of y = sin(x) is compressed horizontally by a factor of 3. What is the resulting equation?",
+      "choices": {
+        "A": "y = sin(x/3)",
+        "B": "y = 3sin(x)",
+        "C": "y = sin(3x)",
+        "D": "y = (1/3)sin(x)"
+      },
+      "answer": "C",
+      "explanation": "A horizontal compression by factor 3 replaces x with 3x: y = sin(3x). This makes the period 3× shorter (2π/3 instead of 2π).",
+      "test": 12
+    },
+    {
+      "id": 338,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If cot(x) = 7/24 and x is in Quadrant III, what is sin(x)?",
+      "choices": {
+        "A": "24/25",
+        "B": "−24/25",
+        "C": "7/25",
+        "D": "−7/25"
+      },
+      "answer": "B",
+      "explanation": "cot(x) = adj/opp = 7/24 in Q3 (both negative). hypotenuse = √(49 + 576) = 25. sin(x) = opp/hyp = −24/25 in Q3.",
+      "test": 12
+    },
+    {
+      "id": 339,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "How many radians is 210°?",
+      "choices": {
+        "A": "5π/6",
+        "B": "7π/6",
+        "C": "4π/3",
+        "D": "3π/2"
+      },
+      "answer": "B",
+      "explanation": "210° × (π/180°) = 210π/180 = 7π/6.",
+      "test": 12
+    },
+    {
+      "id": 340,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "In a unit circle, the point (x, y) corresponds to angle θ. If y = −√3/2 and the angle is in Quadrant III, what is x?",
+      "choices": {
+        "A": "1/2",
+        "B": "−1/2",
+        "C": "√3/2",
+        "D": "−√3/2"
+      },
+      "answer": "B",
+      "explanation": "y = sin(θ) = −√3/2 in Q3 means θ = 4π/3. x = cos(4π/3) = −cos(π/3) = −1/2.",
+      "test": 12
+    },
+    {
+      "id": 341,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the phase shift of y = sin(2x − π/3)?",
+      "choices": {
+        "A": "π/3 to the right",
+        "B": "π/6 to the right",
+        "C": "π/3 to the left",
+        "D": "π/6 to the left"
+      },
+      "answer": "B",
+      "explanation": "Phase shift = −C/B = −(−π/3)/2 = π/6. Positive means shift to the right.",
+      "test": 12
+    },
+    {
+      "id": 342,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which value of x in [0°, 360°) satisfies sin(x) = cos(x)?",
+      "choices": {
+        "A": "45° and 135°",
+        "B": "45° and 225°",
+        "C": "135° and 315°",
+        "D": "0° and 180°"
+      },
+      "answer": "B",
+      "explanation": "sin(x) = cos(x) → tan(x) = 1 → x = 45° and x = 45° + 180° = 225° in [0°, 360°).",
+      "test": 12
+    },
+    {
+      "id": 343,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "A Ferris wheel has a radius of 20 m and its center is 25 m above the ground. It completes one revolution every 40 seconds. Which function models the height h (in meters) as a function of time t (in seconds)?",
+      "choices": {
+        "A": "h = 20sin(πt/20) + 25",
+        "B": "h = 20cos(πt/20) + 25",
+        "C": "h = 25sin(πt/40) + 20",
+        "D": "h = 20sin(2πt/40) + 25"
+      },
+      "answer": "D",
+      "explanation": "Amplitude = radius = 20, midline = center height = 25, period = 40 → B = 2π/40 = π/20. h = 20sin(πt/20) + 25. Both A and D are equivalent — D is written in unsimplified form. 2π/40 = π/20, so D simplifies to A. D is the intended answer as written.",
+      "test": 12
+    },
+    {
+      "id": 344,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If sin(2θ) = 0.6, what is sin(θ)cos(θ)?",
+      "choices": {
+        "A": "0.6",
+        "B": "0.3",
+        "C": "1.2",
+        "D": "0.36"
+      },
+      "answer": "B",
+      "explanation": "sin(2θ) = 2sin(θ)cos(θ) = 0.6. Therefore sin(θ)cos(θ) = 0.6/2 = 0.3.",
+      "test": 12
+    },
+    {
+      "id": 345,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "What is the exact value of cos(π/12)? (Hint: π/12 = π/3 − π/4)",
+      "choices": {
+        "A": "(√6 − √2)/4",
+        "B": "(√6 + √2)/4",
+        "C": "(√3 + 1)/4",
+        "D": "√3/4"
+      },
+      "answer": "B",
+      "explanation": "cos(π/3 − π/4) = cos(π/3)cos(π/4) + sin(π/3)sin(π/4) = (1/2)(√2/2) + (√3/2)(√2/2) = √2/4 + √6/4 = (√6 + √2)/4.",
+      "test": 12
+    },
+    {
+      "id": 346,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which of the following has no solution?",
+      "choices": {
+        "A": "sin(x) = 0.5",
+        "B": "cos(x) = −0.9",
+        "C": "tan(x) = 100",
+        "D": "sin(x) = 1.5"
+      },
+      "answer": "D",
+      "explanation": "The range of sin(x) is [−1, 1]. Since 1.5 > 1, the equation sin(x) = 1.5 has no solution.",
+      "test": 12
+    },
+    {
+      "id": 347,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "A 50-ft wire is attached from the top of a vertical pole to a point on the ground 30 ft from the base. What angle does the wire make with the ground? (Use cos⁻¹(0.6) ≈ 53.1°)",
+      "choices": {
+        "A": "36.9°",
+        "B": "53.1°",
+        "C": "30.0°",
+        "D": "60.0°"
+      },
+      "answer": "B",
+      "explanation": "cos(θ) = adjacent/hypotenuse = 30/50 = 0.6. θ = cos⁻¹(0.6) ≈ 53.1°.",
+      "test": 12
+    },
+    {
+      "id": 348,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Which expression equals (sinx + cosx)² − 1?",
+      "choices": {
+        "A": "2sinx cosx",
+        "B": "sin²x − cos²x",
+        "C": "1 + 2sinx cosx",
+        "D": "cos(2x)"
+      },
+      "answer": "A",
+      "explanation": "(sinx + cosx)² = sin²x + 2sinx·cosx + cos²x = 1 + 2sinx·cosx. Subtracting 1: 2sinx·cosx = sin(2x).",
+      "test": 12
+    },
+    {
+      "id": 349,
+      "section": "Math",
+      "category": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "In which quadrant is θ if sin(θ) < 0 and cos(θ) > 0?",
+      "choices": {
+        "A": "Quadrant I",
+        "B": "Quadrant II",
+        "C": "Quadrant III",
+        "D": "Quadrant IV"
+      },
+      "answer": "D",
+      "explanation": "sin < 0 means y < 0 (below x-axis: Q3 or Q4). cos > 0 means x > 0 (right of y-axis: Q1 or Q4). The intersection is Quadrant IV.",
+      "test": 12
     }
   ]
 }

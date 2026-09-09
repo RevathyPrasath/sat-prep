@@ -336,12 +336,12 @@
   <div class="home-hero">
     <div class="hard-badge">Hard Difficulty Only</div>
     <h2>Choose a Practice Test</h2>
-    <p>10 tests · Mixed Math &amp; Reading/Writing · 35 minutes each</p>
+    <p>12 tests · Mixed Math &amp; Reading/Writing + 2 Trigonometry · 35 minutes each</p>
   </div>
 
   <div class="summary-row">
-    <div class="summary-pill"><div class="num">10</div><div class="lbl">Tests</div></div>
-    <div class="summary-pill"><div class="num">299</div><div class="lbl">Total Questions</div></div>
+    <div class="summary-pill"><div class="num">12</div><div class="lbl">Tests</div></div>
+    <div class="summary-pill"><div class="num">349</div><div class="lbl">Total Questions</div></div>
     <div class="summary-pill"><div class="num">35<span style="font-size:1rem">min</span></div><div class="lbl">Per Test</div></div>
   </div>
 
@@ -459,6 +459,7 @@
     const grid = document.getElementById('tests-grid');
     grid.innerHTML = '';
 
+    // Tests 1–10: Mixed Math + R&W
     for (let t = 1; t <= 10; t++) {
       let pool = allQuestions.filter(q => q.test === t);
       if (currentFilter !== 'All') pool = pool.filter(q => q.section === currentFilter);
@@ -490,6 +491,50 @@
         </div>
         <div class="progress-stripe" style="width:${stripeWidth}%"></div>
       `;
+      card.onclick = () => startTest(t);
+      grid.appendChild(card);
+    }
+
+    // Divider for Trig tests
+    const divider = document.createElement('div');
+    divider.style.cssText = 'grid-column:1/-1;margin:10px 0 4px;display:flex;align-items:center;gap:12px;';
+    divider.innerHTML = `
+      <div style="flex:1;height:1px;background:#e5e7eb"></div>
+      <span style="font-size:0.8rem;font-weight:700;color:#7c3aed;white-space:nowrap;letter-spacing:.04em;">▲ TRIGONOMETRY ONLY</span>
+      <div style="flex:1;height:1px;background:#e5e7eb"></div>
+    `;
+    grid.appendChild(divider);
+
+    // Tests 11–12: Trigonometry only
+    for (let t = 11; t <= 12; t++) {
+      let pool = allQuestions.filter(q => q.test === t);
+      const total = pool.length;
+
+      const saved = scores[`test_${t}_All`];
+      let scoreBadge = '';
+      let stripeWidth = 0;
+      if (saved) {
+        const pct = Math.round((saved.correct / saved.total) * 100);
+        const cls = pct >= 70 ? 'pass' : 'fail';
+        scoreBadge = `<div class="tc-score ${cls}">${pct}%</div>`;
+        stripeWidth = saved.answered / saved.total * 100;
+      }
+
+      const card = document.createElement('div');
+      card.className = 'test-card';
+      card.style.borderColor = '#7c3aed';
+      card.innerHTML = `
+        ${scoreBadge}
+        <div class="tc-num" style="color:#7c3aed">Trigonometry · Test ${t}</div>
+        <div class="tc-title">${total} Questions</div>
+        <div class="tc-meta">
+          <span>📐 ${total} Trigonometry (Hard)</span>
+          <span>⏱ 35 minutes</span>
+        </div>
+        <div class="progress-stripe" style="width:${stripeWidth}%;background:#7c3aed"></div>
+      `;
+      card.onmouseenter = () => card.style.borderColor = '#5b21b6';
+      card.onmouseleave = () => card.style.borderColor = '#7c3aed';
       card.onclick = () => startTest(t);
       grid.appendChild(card);
     }
