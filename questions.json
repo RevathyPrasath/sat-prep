@@ -5583,6 +5583,1206 @@
       },
       "answer": "A",
       "explanation": "Period = 2π/ω = 4 → ω = π/2. h(0) = r·sin(φ) = r/√2 → sin(φ) = 1/√2 → φ = π/4 or 3π/4. h'(0) = rω·cos(φ) > 0 (height increasing) → cos(φ) > 0 → φ = π/4."
+    },
+    {
+      "id": 350,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "The quadratic x² + bx + 13 = 0 has two complex (non-real) roots r and s. If r² + s² = −10, what is b²?",
+      "choices": {
+        "A": "16",
+        "B": "36",
+        "C": "52",
+        "D": "26"
+      },
+      "answer": "A",
+      "explanation": "By Vieta's: r+s = −b, rs = 13. r²+s² = (r+s)²−2rs = b²−26 = −10 → b² = 16. Verify: discriminant = 16−52 < 0, confirming complex roots."
+    },
+    {
+      "id": 351,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "If (x − 3) is a factor of p(x) = x³ − kx² + 5x − 6, what is k?",
+      "choices": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "Factor theorem: p(3) = 0. 27 − 9k + 15 − 6 = 0 → 36 − 9k = 0 → k = 4."
+    },
+    {
+      "id": 352,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "The function f(x) = 3x² − 12x + 7 has its minimum at (a, b). What is a + b?",
+      "choices": {
+        "A": "−3",
+        "B": "3",
+        "C": "−7",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Complete the square: 3(x−2)²−12+7 = 3(x−2)²−5. Vertex (a, b) = (2, −5). a+b = 2+(−5) = −3."
+    },
+    {
+      "id": 353,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "The system y = x² − 3x + 2 and y = x + k has exactly one solution. What is k?",
+      "choices": {
+        "A": "−2",
+        "B": "2",
+        "C": "−4",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Set equal: x²−3x+2 = x+k → x²−4x+(2−k) = 0. For exactly one solution, discriminant = 0: 16−4(2−k) = 0 → 4k = −8 → k = −2."
+    },
+    {
+      "id": 354,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "(x+3)/(x−2) − (x−1)/(x+2) = 3. What is the sum of all valid solutions?",
+      "choices": {
+        "A": "8/3",
+        "B": "4",
+        "C": "−4/3",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Multiply through by (x−2)(x+2): (x+3)(x+2)−(x−1)(x−2) = 3(x²−4) → 8x+4 = 3x²−12 → 3x²−8x−16 = 0 → (3x+4)(x−4) = 0. x = −4/3 or x = 4 (neither equals ±2). Sum = −4/3+4 = 8/3."
+    },
+    {
+      "id": 355,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "If 2^(x+3) = 5^x, which expression equals x?",
+      "choices": {
+        "A": "3log(2) / (log(5)−log(2))",
+        "B": "log(8)/log(5)",
+        "C": "3/(log(5)−log(2))",
+        "D": "log(2)/log(5)"
+      },
+      "answer": "A",
+      "explanation": "(x+3)log2 = x·log5 → x(log5−log2) = 3log2 → x = 3log2/(log5−log2). This equals log₍₅/₂₎8."
+    },
+    {
+      "id": 356,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "What is the real part of (2 + 3i)²?",
+      "choices": {
+        "A": "−5",
+        "B": "5",
+        "C": "−9",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "(2+3i)² = 4+12i+9i² = 4+12i−9 = −5+12i. Real part = −5."
+    },
+    {
+      "id": 357,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "p(x) = x⁴−2x³+5x−4. If r₁ = p(1) and r₂ = p(−2), what is r₁−r₂?",
+      "choices": {
+        "A": "−18",
+        "B": "18",
+        "C": "0",
+        "D": "−4"
+      },
+      "answer": "A",
+      "explanation": "p(1) = 1−2+5−4 = 0. p(−2) = 16+16−10−4 = 18. r₁−r₂ = 0−18 = −18."
+    },
+    {
+      "id": 358,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "If f(x) = (2x−1)/(x+3) and g(f(x)) = x for all valid x, what is g(x)?",
+      "choices": {
+        "A": "(3x+1)/(2−x)",
+        "B": "(x+3)/(2x−1)",
+        "C": "(3x−1)/(x+2)",
+        "D": "(2x+1)/(x−3)"
+      },
+      "answer": "A",
+      "explanation": "g is the inverse of f. Let y = (2x−1)/(x+3): y(x+3) = 2x−1 → x(y−2) = −3y−1 → x = (3y+1)/(2−y). So g(x) = (3x+1)/(2−x)."
+    },
+    {
+      "id": 359,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "The solution set of |2x − 5| > 9 is x < a or x > b. What is a + b?",
+      "choices": {
+        "A": "5",
+        "B": "9",
+        "C": "−5",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "2x−5 > 9 → x > 7 (b = 7). 2x−5 < −9 → x < −2 (a = −2). a+b = −2+7 = 5."
+    },
+    {
+      "id": 360,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "For √(2x+1) = x−1, which value of x is an extraneous solution?",
+      "choices": {
+        "A": "x = 0",
+        "B": "x = 4",
+        "C": "x = −1",
+        "D": "x = 2"
+      },
+      "answer": "A",
+      "explanation": "Square both sides: 2x+1 = x²−2x+1 → x²−4x = 0 → x = 0 or x = 4. Check x = 0: √1 = −1? No — extraneous. Check x = 4: √9 = 3 ✓."
+    },
+    {
+      "id": 361,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "A geometric sequence with first term 4 has sum of its first 4 terms equal to 60. What is the common ratio?",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "√2"
+      },
+      "answer": "A",
+      "explanation": "4(1+r+r²+r³) = 60 → r³+r²+r−14 = 0. Test r = 2: 8+4+2−14 = 0 ✓. Common ratio = 2."
+    },
+    {
+      "id": 362,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "For what values of k does x² + 4x + k = 0 have no real solutions?",
+      "choices": {
+        "A": "k > 4",
+        "B": "k < 4",
+        "C": "k ≥ 4",
+        "D": "k < −4"
+      },
+      "answer": "A",
+      "explanation": "Discriminant < 0: 16−4k < 0 → k > 4."
+    },
+    {
+      "id": 363,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "If f(x) = x³ − x and g(x) = f(2x−4), what is g(3)?",
+      "choices": {
+        "A": "6",
+        "B": "−6",
+        "C": "2",
+        "D": "27"
+      },
+      "answer": "A",
+      "explanation": "g(x) = f(2x−4). g(3) = f(2·3−4) = f(2). f(2) = 2³−2 = 6."
+    },
+    {
+      "id": 364,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 13,
+      "question": "In the expansion of (x + 2)⁵, what is the coefficient of x³?",
+      "choices": {
+        "A": "40",
+        "B": "80",
+        "C": "10",
+        "D": "20"
+      },
+      "answer": "A",
+      "explanation": "C(5,2)·x³·2² = 10·4·x³. Coefficient = 40."
+    },
+    {
+      "id": 365,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "For p(x) = x⁴−2x³+5x−4, let r₁ = p(1) and r₂ = p(−2). What is r₁−r₂?",
+      "choices": {
+        "A": "−18",
+        "B": "18",
+        "C": "−4",
+        "D": "22"
+      },
+      "answer": "A",
+      "explanation": "p(1) = 1−2+5−4 = 0. p(−2) = 16+16−10−4 = 18. r₁−r₂ = 0−18 = −18."
+    },
+    {
+      "id": 366,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "One root of 2x³ − 5x² − 4x + 3 = 0 is x = 3. What is the product of the other two roots?",
+      "choices": {
+        "A": "−1/2",
+        "B": "1/2",
+        "C": "−1",
+        "D": "−3/2"
+      },
+      "answer": "A",
+      "explanation": "Synthetic division by (x−3) gives quotient 2x²+x−1 = (2x−1)(x+1). Other roots: x = 1/2 and x = −1. Product = (1/2)(−1) = −1/2."
+    },
+    {
+      "id": 367,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "For f(x) = (x²−x−6)/(x²−4), the graph has a hole at x = a and a vertical asymptote at x = b. What is a + b?",
+      "choices": {
+        "A": "0",
+        "B": "−4",
+        "C": "−2",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Factor: (x−3)(x+2) / ((x−2)(x+2)). Cancel (x+2): hole at x = −2. Vertical asymptote at x = 2. a+b = −2+2 = 0."
+    },
+    {
+      "id": 368,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "If x + y = 5 and xy = 3, what is x³ + y³?",
+      "choices": {
+        "A": "80",
+        "B": "50",
+        "C": "65",
+        "D": "110"
+      },
+      "answer": "A",
+      "explanation": "x³+y³ = (x+y)((x+y)²−3xy) = 5(25−9) = 5·16 = 80."
+    },
+    {
+      "id": 369,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "If f(x) = (3x+2)/(x−5), what is f⁻¹(x)?",
+      "choices": {
+        "A": "(5x+2)/(x−3)",
+        "B": "(x−5)/(3x+2)",
+        "C": "(5x−2)/(x+3)",
+        "D": "(3x+2)/(x+5)"
+      },
+      "answer": "A",
+      "explanation": "Let y = (3x+2)/(x−5). Solve for x: y(x−5) = 3x+2 → x(y−3) = 5y+2 → x = (5y+2)/(y−3). So f⁻¹(x) = (5x+2)/(x−3)."
+    },
+    {
+      "id": 370,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "What is the real part of (1 + i)³?",
+      "choices": {
+        "A": "−2",
+        "B": "2",
+        "C": "−1",
+        "D": "−8"
+      },
+      "answer": "A",
+      "explanation": "(1+i)² = 2i. (1+i)³ = 2i·(1+i) = 2i+2i² = −2+2i. Real part = −2."
+    },
+    {
+      "id": 371,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "A population of 5,000 doubles every 12 years. After how many years will the population be exactly 40,000?",
+      "choices": {
+        "A": "36",
+        "B": "24",
+        "C": "48",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "5000·2^(t/12) = 40000 → 2^(t/12) = 8 = 2³ → t/12 = 3 → t = 36 years."
+    },
+    {
+      "id": 372,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "Which of the following correctly describes the solution set of (x−1)(x−4)(x−6) > 0?",
+      "choices": {
+        "A": "(1, 4) ∪ (6, ∞)",
+        "B": "(−∞, 1) ∪ (4, 6)",
+        "C": "(4, 6)",
+        "D": "(1, 6)"
+      },
+      "answer": "A",
+      "explanation": "Sign analysis: positive when 1 < x < 4 (one negative factor) or x > 6 (all positive). Solution: (1, 4) ∪ (6, ∞)."
+    },
+    {
+      "id": 373,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "The roots r and s of 3x² − 7x + k = 0 satisfy r² + s² = 37/9. What is k?",
+      "choices": {
+        "A": "2",
+        "B": "−2",
+        "C": "4",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "r+s = 7/3, rs = k/3. r²+s² = (7/3)²−2(k/3) = 49/9−2k/3 = 37/9. Solving: 2k/3 = 12/9 = 4/3 → k = 2."
+    },
+    {
+      "id": 374,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "f(x) = x²+1 for x < 0; f(x) = 2x−3 for 0 ≤ x < 4; f(x) = x³−60 for x ≥ 4. What is f(f(−2))?",
+      "choices": {
+        "A": "65",
+        "B": "5",
+        "C": "60",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "f(−2) = (−2)²+1 = 5 (uses x < 0 branch). f(5) = 5³−60 = 65 (uses x ≥ 4 branch)."
+    },
+    {
+      "id": 375,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "The sum of the first n terms of a sequence is Sₙ = 3n² + 5n. What is the 10th term?",
+      "choices": {
+        "A": "62",
+        "B": "350",
+        "C": "58",
+        "D": "60"
+      },
+      "answer": "A",
+      "explanation": "aₙ = Sₙ−Sₙ₋₁ = (3n²+5n)−(3(n−1)²+5(n−1)) = 6n+2. a₁₀ = 60+2 = 62."
+    },
+    {
+      "id": 376,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "log₂(x) + log₂(x − 6) = 4. What is x?",
+      "choices": {
+        "A": "8",
+        "B": "−2",
+        "C": "4",
+        "D": "16"
+      },
+      "answer": "A",
+      "explanation": "log₂(x(x−6)) = 4 → x(x−6) = 16 → x²−6x−16 = 0 → (x−8)(x+2) = 0. x = 8 (x = −2 rejected since log is undefined)."
+    },
+    {
+      "id": 377,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "A cubic polynomial with real coefficients has roots 2 and 3+i. What is the constant term of the polynomial (leading coefficient 1)?",
+      "choices": {
+        "A": "−20",
+        "B": "20",
+        "C": "−10",
+        "D": "−12"
+      },
+      "answer": "A",
+      "explanation": "Complex roots come in conjugate pairs, so 3−i is also a root. p(x) = (x−2)(x−(3+i))(x−(3−i)) = (x−2)(x²−6x+10) = x³−8x²+22x−20. Constant term = −20."
+    },
+    {
+      "id": 378,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "For f(x) = x² + 3x, the average rate of change from x = a to x = a + 2 equals 11. What is a?",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "[f(a+2)−f(a)]/2 = [(a+2)²+3(a+2)−a²−3a]/2 = (4a+10)/2 = 2a+5 = 11 → a = 3."
+    },
+    {
+      "id": 379,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 14,
+      "question": "Simplify (x^(2/3) · x^(1/2))^6 / x^5.",
+      "choices": {
+        "A": "x²",
+        "B": "x^(7/30)",
+        "C": "x^(1/5)",
+        "D": "x^(7/5)"
+      },
+      "answer": "A",
+      "explanation": "x^(2/3+1/2) = x^(7/6). Raised to the 6th power: x^7. Divide by x^5: x²."
+    },
+    {
+      "id": 380,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "If f(x) = x/(x−1) and g(x) = 1/(1−x), what is f(g(x))?",
+      "choices": {
+        "A": "1/x",
+        "B": "x",
+        "C": "1/(1−x)",
+        "D": "x/(x−1)"
+      },
+      "answer": "A",
+      "explanation": "g(x) = 1/(1−x). g(x)−1 = x/(1−x). f(g(x)) = g(x)/(g(x)−1) = [1/(1−x)] / [x/(1−x)] = 1/x."
+    },
+    {
+      "id": 381,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "If f(x) = 2x+3 and g(x) = x², what is (f∘g)⁻¹(x) for x ≥ 3?",
+      "choices": {
+        "A": "√((x−3)/2)",
+        "B": "√(x/2−3)",
+        "C": "(√x−3)/2",
+        "D": "(x−3)²/4"
+      },
+      "answer": "A",
+      "explanation": "(f∘g)(x) = 2x²+3. Inverse: y = 2x²+3 → x² = (y−3)/2 → x = √((y−3)/2). So (f∘g)⁻¹(x) = √((x−3)/2)."
+    },
+    {
+      "id": 382,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "The roots of x² + px + q = 0 differ by 4 and their squares sum to 40. If p > 0, what is q?",
+      "choices": {
+        "A": "12",
+        "B": "−12",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "A",
+      "explanation": "(r−s)² = p²−4q = 16 and r²+s² = p²−2q = 40. Subtracting: 2q = 24 → q = 12. Then p² = 64 → p = 8."
+    },
+    {
+      "id": 383,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "The system 2x + ky = 4 and kx + 8y = 6 has no solution for which values of k?",
+      "choices": {
+        "A": "k = 4 or k = −4",
+        "B": "k = 4 only",
+        "C": "k = −4 only",
+        "D": "k = ±2"
+      },
+      "answer": "A",
+      "explanation": "For no solution: coefficients proportional but constants not. 2/k = k/8 → k² = 16 → k = ±4. Check: both give 4/6 ≠ ½ or ≠ −½, confirming no solution for both."
+    },
+    {
+      "id": 384,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "A colony grows by a factor of 2.5 every 10 years. Starting with 1,000 in 2020, what is the population in 2050?",
+      "choices": {
+        "A": "15,625",
+        "B": "7,500",
+        "C": "16,000",
+        "D": "31,250"
+      },
+      "answer": "A",
+      "explanation": "30 years = 3 periods. 1000 × 2.5³ = 1000 × 15.625 = 15,625."
+    },
+    {
+      "id": 385,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "The equation x² + y² − 6x + 4y − 3 = 0 describes a circle. What is its radius?",
+      "choices": {
+        "A": "4",
+        "B": "16",
+        "C": "√7",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Complete the square: (x−3)²−9+(y+2)²−4−3 = 0 → (x−3)²+(y+2)² = 16. Radius = √16 = 4."
+    },
+    {
+      "id": 386,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "An infinite geometric series has sum 15 and first term 5. What is the common ratio?",
+      "choices": {
+        "A": "2/3",
+        "B": "1/3",
+        "C": "3/5",
+        "D": "4/5"
+      },
+      "answer": "A",
+      "explanation": "S = a/(1−r): 15 = 5/(1−r) → 1−r = 1/3 → r = 2/3."
+    },
+    {
+      "id": 387,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "A monic cubic polynomial has a double root at x = 2 and the sum of all roots is 7. What is the polynomial's constant term?",
+      "choices": {
+        "A": "−12",
+        "B": "12",
+        "C": "−6",
+        "D": "24"
+      },
+      "answer": "A",
+      "explanation": "Roots: 2, 2, and 7−4 = 3. p(x) = (x−2)²(x−3) = x³−7x²+16x−12. Constant term = −12."
+    },
+    {
+      "id": 388,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "f(x) = (2x²−3x+c)/(x−k) has no vertical asymptote. If k = 2, what must c equal?",
+      "choices": {
+        "A": "−2",
+        "B": "2",
+        "C": "−8",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "No vertical asymptote requires (x−k) to be a factor of the numerator. 2(2)²−3(2)+c = 0 → 8−6+c = 0 → c = −2."
+    },
+    {
+      "id": 389,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "If a + b = p and ab = q, which expression equals a³ + b³?",
+      "choices": {
+        "A": "p³ − 3pq",
+        "B": "p³ + 3pq",
+        "C": "p³ − 3q",
+        "D": "p² − 3pq"
+      },
+      "answer": "A",
+      "explanation": "a³+b³ = (a+b)³−3ab(a+b) = p³−3qp = p³−3pq."
+    },
+    {
+      "id": 390,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "How many distinct complex solutions does z⁴ = 16 have?",
+      "choices": {
+        "A": "4",
+        "B": "2",
+        "C": "1",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "z⁴ = 16 → z = 2, 2i, −2, −2i (the four 4th roots of 16). Four distinct complex solutions."
+    },
+    {
+      "id": 391,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "In the expansion of (2x − 1/x)⁶, what is the constant term?",
+      "choices": {
+        "A": "−160",
+        "B": "160",
+        "C": "−20",
+        "D": "80"
+      },
+      "answer": "A",
+      "explanation": "General term: C(6,k)·(2x)^(6−k)·(−1/x)^k = C(6,k)·2^(6−k)·(−1)^k·x^(6−2k). Constant: 6−2k = 0 → k = 3. C(6,3)·2³·(−1)³ = 20·8·(−1) = −160."
+    },
+    {
+      "id": 392,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "How many real solutions does |x² − 4| = 3x have?",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Case 1 (x²≥4): x²−3x−4=0 → x=4 ✓ or x=−1 ✗ (not in domain x≤−2 or x≥2). Case 2 (x²<4): x²+3x−4=0 → x=1 ✓ or x=−4 ✗. Two solutions: x=1 and x=4."
+    },
+    {
+      "id": 393,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "A sequence is defined by a₁ = 2 and aₙ₊₁ = 2aₙ + 3. What is a₅?",
+      "choices": {
+        "A": "77",
+        "B": "75",
+        "C": "79",
+        "D": "37"
+      },
+      "answer": "A",
+      "explanation": "a₁=2, a₂=7, a₃=17, a₄=37, a₅=2(37)+3=77."
+    },
+    {
+      "id": 394,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 15,
+      "question": "A parabola has vertex (−3, 5) and passes through (0, −4). In f(x) = a(x+3)² + 5, what is a?",
+      "choices": {
+        "A": "−1",
+        "B": "1",
+        "C": "−9",
+        "D": "−4/9"
+      },
+      "answer": "A",
+      "explanation": "f(0) = a(9)+5 = −4 → 9a = −9 → a = −1."
+    },
+    {
+      "id": 395,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "If f(x) = x³ − x and g(x) = −f(x−2) + 1, what is g(3)?",
+      "choices": {
+        "A": "1",
+        "B": "−1",
+        "C": "7",
+        "D": "−7"
+      },
+      "answer": "A",
+      "explanation": "g(3) = −f(3−2)+1 = −f(1)+1 = −(1−1)+1 = 0+1 = 1."
+    },
+    {
+      "id": 396,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "What is the sum of the infinite series 1 − 1/3 + 1/9 − 1/27 + ⋯?",
+      "choices": {
+        "A": "3/4",
+        "B": "2/3",
+        "C": "1/2",
+        "D": "4/3"
+      },
+      "answer": "A",
+      "explanation": "Geometric series with a = 1, r = −1/3. S = 1/(1−(−1/3)) = 1/(4/3) = 3/4."
+    },
+    {
+      "id": 397,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "A monic cubic polynomial has roots whose sum is 6, pairwise product sum is 11, and triple product is 6. Which polynomial has these roots?",
+      "choices": {
+        "A": "x³ − 6x² + 11x − 6",
+        "B": "x³ + 6x² − 11x + 6",
+        "C": "x³ − 6x² − 11x + 6",
+        "D": "x³ + 11x − 6"
+      },
+      "answer": "A",
+      "explanation": "Vieta's formulas for x³+bx²+cx+d: b = −(sum) = −6, c = pairwise = 11, d = −(product) = −6. Polynomial: x³−6x²+11x−6. Roots are 1, 2, 3."
+    },
+    {
+      "id": 398,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "The line y = x + k is tangent to the circle x² + y² = 25. What are the possible values of k?",
+      "choices": {
+        "A": "k = ±5√2",
+        "B": "k = ±5",
+        "C": "k = ±7",
+        "D": "k = ±10"
+      },
+      "answer": "A",
+      "explanation": "Substituting y = x+k: x²+(x+k)² = 25 → 2x²+2kx+k²−25 = 0. For tangency, discriminant = 0: 4k²−8(k²−25) = 0 → −4k²+200 = 0 → k² = 50 → k = ±5√2."
+    },
+    {
+      "id": 399,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "Solve: (x + 1)/(x − 3) > 2. Which is the solution set?",
+      "choices": {
+        "A": "3 < x < 7",
+        "B": "x < 3 or x > 7",
+        "C": "x > 7",
+        "D": "x < 7"
+      },
+      "answer": "A",
+      "explanation": "(x+1)/(x−3)−2 > 0 → (x+1−2(x−3))/(x−3) > 0 → (7−x)/(x−3) > 0. Both factors positive: 3 < x < 7. Both negative: x < 3 and x > 7 — impossible. Solution: 3 < x < 7."
+    },
+    {
+      "id": 400,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "What is the equation of the slant asymptote of f(x) = (x³−3x+2)/(x²−1)?",
+      "choices": {
+        "A": "y = x",
+        "B": "y = x+1",
+        "C": "y = x−1",
+        "D": "y = 2x"
+      },
+      "answer": "A",
+      "explanation": "Factor: x³−3x+2 = (x−1)²(x+2) and x²−1 = (x−1)(x+1). f(x) = (x−1)(x+2)/(x+1). Divide x²+x−2 by x+1: quotient x, remainder −2. Slant asymptote: y = x."
+    },
+    {
+      "id": 401,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "The function f(x) = 2(x−3)²−8 has x-intercepts at x = a and x = b with a < b. What is 2a + b?",
+      "choices": {
+        "A": "7",
+        "B": "6",
+        "C": "8",
+        "D": "11"
+      },
+      "answer": "A",
+      "explanation": "2(x−3)² = 8 → (x−3)² = 4 → x = 1 or x = 5. a = 1, b = 5. 2(1)+5 = 7."
+    },
+    {
+      "id": 402,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "The curves y = x² and y = −x² + 8 intersect at two points. What is the y-coordinate of each intersection?",
+      "choices": {
+        "A": "4",
+        "B": "2",
+        "C": "8",
+        "D": "±4"
+      },
+      "answer": "A",
+      "explanation": "x² = −x²+8 → 2x² = 8 → x = ±2. y = (±2)² = 4. Both intersection points have y = 4."
+    },
+    {
+      "id": 403,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "How many integers n satisfy |n² − 5n| < 6?",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "3",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "Need −6 < n²−5n < 6. Upper bound (n−6)(n+1) < 0 → −1 < n < 6. Lower bound (n−2)(n−3) > 0 → n < 2 or n > 3. Integers in (−1,2): 0, 1. Integers in (3,6): 4, 5. Four integers total."
+    },
+    {
+      "id": 404,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "A particle moves as x = 2cos(t), y = 3sin(t). Which equation describes its path?",
+      "choices": {
+        "A": "x²/4 + y²/9 = 1",
+        "B": "x²/9 + y²/4 = 1",
+        "C": "x² + y² = 6",
+        "D": "y = (3/2)x"
+      },
+      "answer": "A",
+      "explanation": "cos(t) = x/2 and sin(t) = y/3. Using cos²t+sin²t = 1: x²/4+y²/9 = 1, an ellipse with semi-axes 2 and 3."
+    },
+    {
+      "id": 405,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "(3x+5)/((x+1)(x−2)) = A/(x+1) + B/(x−2). What is the value of A?",
+      "choices": {
+        "A": "−2/3",
+        "B": "2/3",
+        "C": "11/3",
+        "D": "−11/3"
+      },
+      "answer": "A",
+      "explanation": "3x+5 = A(x−2)+B(x+1). Set x = −1: 2 = −3A → A = −2/3."
+    },
+    {
+      "id": 406,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "Which function satisfies f(−x) = −f(x) for all x?",
+      "choices": {
+        "A": "f(x) = x⁵ − 3x³ + 2x",
+        "B": "f(x) = x⁴ − x² + 1",
+        "C": "f(x) = x³ + x²",
+        "D": "f(x) = |x³|"
+      },
+      "answer": "A",
+      "explanation": "A function is odd iff every term has an odd exponent. f(x) = x⁵−3x³+2x has only odd-power terms, so f(−x) = −f(x)."
+    },
+    {
+      "id": 407,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "For f(x) = 3x² − 12x − 15 with roots r₁ and r₂, what is (r₁ + r₂)/2?",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "−5/3",
+        "D": "−1"
+      },
+      "answer": "A",
+      "explanation": "By Vieta's, r₁+r₂ = 12/3 = 4. (r₁+r₂)/2 = 2. This is also the x-coordinate of the vertex (axis of symmetry)."
+    },
+    {
+      "id": 408,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "A ball's height is h(t) = −5t² + 30t + 5 meters. After how many seconds does it hit the ground?",
+      "choices": {
+        "A": "3 + √10",
+        "B": "3 + √5",
+        "C": "6 + √5",
+        "D": "6 + √10"
+      },
+      "answer": "A",
+      "explanation": "Set h = 0: 5t²−30t−5 = 0 → t²−6t−1 = 0 → t = (6±√40)/2 = 3±√10. Since t > 0, t = 3+√10."
+    },
+    {
+      "id": 409,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 16,
+      "question": "Which expression is equivalent to log₂(x³) − log₂(4x) + 2?",
+      "choices": {
+        "A": "2log₂(x)",
+        "B": "3log₂(x)",
+        "C": "log₂(x)",
+        "D": "log₂(x²)−2"
+      },
+      "answer": "A",
+      "explanation": "log₂(x³/4x)+2 = log₂(x²/4)+2 = log₂(x²)−log₂(4)+2 = 2log₂x−2+2 = 2log₂x."
+    },
+    {
+      "id": 410,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "Three numbers satisfy x+y+z = 6, xy+yz+xz = 11, xyz = 6. What is x²+y²+z²?",
+      "choices": {
+        "A": "14",
+        "B": "22",
+        "C": "25",
+        "D": "11"
+      },
+      "answer": "A",
+      "explanation": "x²+y²+z² = (x+y+z)²−2(xy+yz+xz) = 36−22 = 14."
+    },
+    {
+      "id": 411,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "What is the maximum value of 3x + 4y subject to x² + y² = 25?",
+      "choices": {
+        "A": "25",
+        "B": "35",
+        "C": "20",
+        "D": "5√7"
+      },
+      "answer": "A",
+      "explanation": "By Cauchy-Schwarz: (3x+4y)² ≤ (3²+4²)(x²+y²) = 25·25 = 625. Max value = 25, achieved when (x,y) = (15/5, 20/5) = (3, 4)."
+    },
+    {
+      "id": 412,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "If log(x) + log(x²) = 3 (base 10), what is x?",
+      "choices": {
+        "A": "10",
+        "B": "100",
+        "C": "1000",
+        "D": "√10"
+      },
+      "answer": "A",
+      "explanation": "log(x·x²) = log(x³) = 3 → x³ = 10³ = 1000 → x = 10."
+    },
+    {
+      "id": 413,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "The equation x⁴ − 16 = 0 has four solutions. What is the sum of all real solutions?",
+      "choices": {
+        "A": "0",
+        "B": "4",
+        "C": "2",
+        "D": "−2"
+      },
+      "answer": "A",
+      "explanation": "x⁴ = 16 → x² = ±4. Real solutions: x² = 4 → x = ±2. Complex: x² = −4 → x = ±2i. Sum of real solutions: 2+(−2) = 0."
+    },
+    {
+      "id": 414,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "Solve 2^(2x) − 5·2^x + 4 = 0. What is the sum of all solutions?",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "1",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Let u = 2^x: u²−5u+4 = 0 → (u−1)(u−4) = 0 → u = 1 or u = 4. 2^x = 1 → x = 0; 2^x = 4 → x = 2. Sum = 0+2 = 2."
+    },
+    {
+      "id": 415,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "If f(x) = 2/(x+3) and g is the inverse of f, what is g(5)?",
+      "choices": {
+        "A": "−13/5",
+        "B": "13/5",
+        "C": "−1",
+        "D": "2/8"
+      },
+      "answer": "A",
+      "explanation": "Inverse: y = 2/(x+3) → x+3 = 2/y → x = 2/y−3. g(x) = 2/x−3 = (2−3x)/x. g(5) = (2−15)/5 = −13/5."
+    },
+    {
+      "id": 416,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "If f(x) = 1/x and g(x) = f(2x+1) + 3, what is the vertical asymptote of g?",
+      "choices": {
+        "A": "x = −1/2",
+        "B": "x = −1",
+        "C": "x = 1/2",
+        "D": "x = −3"
+      },
+      "answer": "A",
+      "explanation": "g(x) = 1/(2x+1)+3. Vertical asymptote where 2x+1 = 0 → x = −1/2."
+    },
+    {
+      "id": 417,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "If p + q = 5 and p² + q² = 13, what is p⁴ + q⁴?",
+      "choices": {
+        "A": "97",
+        "B": "169",
+        "C": "73",
+        "D": "103"
+      },
+      "answer": "A",
+      "explanation": "pq = ((p+q)²−(p²+q²))/2 = (25−13)/2 = 6. p⁴+q⁴ = (p²+q²)²−2(pq)² = 169−2(36) = 169−72 = 97."
+    },
+    {
+      "id": 418,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "A polynomial has zeros at x = −2, x = 1 (multiplicity 2), and x = 4. If p(0) = 16, what is the leading coefficient?",
+      "choices": {
+        "A": "−2",
+        "B": "2",
+        "C": "−1",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "p(x) = a(x+2)(x−1)²(x−4). p(0) = a(2)(1)(−4) = −8a = 16 → a = −2."
+    },
+    {
+      "id": 419,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "Solve: log₃(log₂(log₄(x))) = 0. What is x?",
+      "choices": {
+        "A": "16",
+        "B": "64",
+        "C": "256",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "log₃(·) = 0 → log₂(log₄(x)) = 1 → log₄(x) = 2 → x = 4² = 16."
+    },
+    {
+      "id": 420,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "A farmer has 240 m of fencing and encloses a rectangle with one side along a river (no fence needed on that side). What width (perpendicular to river) maximizes area?",
+      "choices": {
+        "A": "60 m",
+        "B": "80 m",
+        "C": "120 m",
+        "D": "40 m"
+      },
+      "answer": "A",
+      "explanation": "Let w = width. Length = 240−2w. Area = w(240−2w) = −2w²+240w. Maximized at w = −240/(2·(−2)) = 60 m."
+    },
+    {
+      "id": 421,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "How many pairs (x, y) satisfy both x²+y² = 36 and (x−3)²+y² = 9?",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "From the second equation: y² = 9−(x−3)². Substitute into the first: x²+9−(x−3)² = 36 → 6x = 36 → x = 6. Then y² = 9−9 = 0 → y = 0. Exactly one solution: (6, 0)."
+    },
+    {
+      "id": 422,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "For f(x) = x² + 2x, what is [f(x+h) − f(x)] / h (h ≠ 0)?",
+      "choices": {
+        "A": "2x + h + 2",
+        "B": "2x + 2",
+        "C": "2x + h",
+        "D": "h + 2"
+      },
+      "answer": "A",
+      "explanation": "f(x+h) = (x+h)²+2(x+h) = x²+2xh+h²+2x+2h. [f(x+h)−f(x)]/h = (2xh+h²+2h)/h = 2x+h+2."
+    },
+    {
+      "id": 423,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "For positive x and y with x + y = 4, what is the maximum value of xy³?",
+      "choices": {
+        "A": "27",
+        "B": "16",
+        "C": "64",
+        "D": "32"
+      },
+      "answer": "A",
+      "explanation": "Let f(y) = (4−y)y³ with x = 4−y. f'(y) = y²(12−4y) = 0 → y = 3, x = 1. Maximum = 1·27 = 27."
+    },
+    {
+      "id": 424,
+      "section": "Math",
+      "category": "Advanced Math",
+      "difficulty": "Hard",
+      "test": 17,
+      "question": "A function satisfies f(x) + f(1−x) = 1 for all x. If f(1/3) = 2/5, what is f(2/3)?",
+      "choices": {
+        "A": "3/5",
+        "B": "2/5",
+        "C": "1/5",
+        "D": "4/5"
+      },
+      "answer": "A",
+      "explanation": "Set x = 1/3: f(1/3)+f(2/3) = 1 → 2/5+f(2/3) = 1 → f(2/3) = 3/5."
     }
   ]
 }
