@@ -4793,9 +4793,9 @@
       "question": "Angle A is in Quadrant I with sin(A) = 3/5, and angle B is in Quadrant I with cos(B) = 5/13. What is sin(A + B)?",
       "choices": {
         "A": "63/65",
-        "B": "16/65",
+        "B": "56/65",
         "C": "33/65",
-        "D": "56/65"
+        "D": "16/65"
       },
       "answer": "A",
       "explanation": "cos(A) = 4/5, sin(B) = 12/13. sin(A+B) = sin(A)cos(B) + cos(A)sin(B) = (3/5)(5/13) + (4/5)(12/13) = 15/65 + 48/65 = 63/65."
@@ -4808,12 +4808,12 @@
       "test": 11,
       "question": "If sin(θ) + cos(θ) = √2/2, what is the value of sin(2θ)?",
       "choices": {
-        "A": "-1/2",
-        "B": "1/2",
-        "C": "-3/4",
-        "D": "3/4"
+        "A": "-3/4",
+        "B": "-1/2",
+        "C": "3/4",
+        "D": "1/2"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Square both sides: sin²θ + 2sinθcosθ + cos²θ = 1/2 → 1 + sin(2θ) = 1/2 → sin(2θ) = -1/2."
     },
     {
@@ -4825,8 +4825,8 @@
       "question": "How many solutions does 2cos²(x) + 3sin(x) − 3 = 0 have on [0, 2π)?",
       "choices": {
         "A": "3",
-        "B": "2",
-        "C": "4",
+        "B": "4",
+        "C": "2",
         "D": "1"
       },
       "answer": "A",
@@ -4840,12 +4840,12 @@
       "test": 11,
       "question": "How many solutions does sin(3x) = sin(x) have on [0, 2π)?",
       "choices": {
-        "A": "6",
-        "B": "4",
-        "C": "5",
-        "D": "8"
+        "A": "5",
+        "B": "8",
+        "C": "4",
+        "D": "6"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "sin(3x) − sin(x) = 0. Using sum-to-product: 2cos(2x)sin(x) = 0. cos(2x) = 0 → x = π/4, 3π/4, 5π/4, 7π/4 (4 solutions). sin(x) = 0 → x = 0, π (2 solutions). Total: 6."
     },
     {
@@ -4857,9 +4857,9 @@
       "question": "What is the exact value of cos(π/8)?",
       "choices": {
         "A": "√(2+√2)/2",
-        "B": "√(2−√2)/2",
-        "C": "(1+√2)/2",
-        "D": "√6/4"
+        "B": "(1+√2)/2",
+        "C": "√6/4",
+        "D": "√(2−√2)/2"
       },
       "answer": "A",
       "explanation": "Using the half-angle formula: cos(π/8) = √((1 + cos(π/4))/2) = √((1 + √2/2)/2) = √((2+√2)/4) = √(2+√2)/2."
@@ -4873,8 +4873,8 @@
       "question": "What is the maximum value of 5sin(x) + 12cos(x)?",
       "choices": {
         "A": "13",
-        "B": "17",
-        "C": "7",
+        "B": "7",
+        "C": "17",
         "D": "60"
       },
       "answer": "A",
@@ -4888,12 +4888,12 @@
       "test": 11,
       "question": "Which of the following is equivalent to sin(3x)?",
       "choices": {
-        "A": "3sin(x) − 4sin³(x)",
-        "B": "4sin³(x) − 3sin(x)",
-        "C": "3sin(x) + 4sin³(x)",
-        "D": "sin(x)(1 − 2sin²(x))"
+        "A": "sin(x)(1 − 2sin²(x))",
+        "B": "3sin(x) + 4sin³(x)",
+        "C": "4sin³(x) − 3sin(x)",
+        "D": "3sin(x) − 4sin³(x)"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Triple angle formula: sin(3x) = 3sinx − 4sin³x. Derived by expanding sin(2x+x) = sin(2x)cosx + cos(2x)sinx and simplifying."
     },
     {
@@ -4904,12 +4904,12 @@
       "test": 11,
       "question": "If cos(2θ) = 3/5, what is tan²(θ)?",
       "choices": {
-        "A": "1/4",
-        "B": "4",
-        "C": "1/3",
-        "D": "1/9"
+        "A": "1/3",
+        "B": "1/9",
+        "C": "1/4",
+        "D": "4"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Use the identity cos(2θ) = (1 − tan²θ)/(1 + tan²θ) = 3/5. Cross-multiply: 5 − 5t² = 3 + 3t² → 8t² = 2 → tan²θ = 1/4."
     },
     {
@@ -4920,12 +4920,12 @@
       "test": 11,
       "question": "What is the exact value of sin(20°)·sin(40°)·sin(80°)?",
       "choices": {
-        "A": "√3/8",
-        "B": "1/8",
+        "A": "1/8",
+        "B": "3/8",
         "C": "√3/4",
-        "D": "3/8"
+        "D": "√3/8"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Using the identity sin(θ)·sin(60°−θ)·sin(60°+θ) = sin(3θ)/4 with θ = 20°: sin(20°)·sin(40°)·sin(80°) = sin(60°)/4 = (√3/2)/4 = √3/8."
     },
     {
@@ -4936,12 +4936,12 @@
       "test": 11,
       "question": "In a triangle, a = 7, b = 10, and A = 30°. Using the Law of Sines, how many valid triangles exist?",
       "choices": {
-        "A": "2",
-        "B": "1",
+        "A": "3",
+        "B": "2",
         "C": "0",
-        "D": "3"
+        "D": "1"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "sin(B) = b·sin(A)/a = 10·(1/2)/7 = 5/7 ≈ 0.714 < 1. Since a < b, the ambiguous case applies and two valid triangles exist."
     },
     {
@@ -4953,9 +4953,9 @@
       "question": "Which expression is equivalent to sin(x + y)·sin(x − y)?",
       "choices": {
         "A": "sin²x − sin²y",
-        "B": "cos²y − cos²x",
+        "B": "cos²x − cos²y",
         "C": "sin²x + sin²y − 1",
-        "D": "cos²x − cos²y"
+        "D": "cos²y − cos²x"
       },
       "answer": "A",
       "explanation": "Expand: (sinx·cosy + cosx·siny)(sinx·cosy − cosx·siny) = sin²x·cos²y − cos²x·sin²y = sin²x(1−sin²y) − (1−sin²x)sin²y = sin²x − sin²y."
@@ -4970,8 +4970,8 @@
       "choices": {
         "A": "2t/(1+t²)",
         "B": "2t/(1−t²)",
-        "C": "t/(1+t²)",
-        "D": "2/(1+t²)"
+        "C": "2/(1+t²)",
+        "D": "t/(1+t²)"
       },
       "answer": "A",
       "explanation": "sin(2x) = 2sinx·cosx. Using sinx = t/√(1+t²) and cosx = 1/√(1+t²): sin(2x) = 2t/(1+t²). Equivalently, sin(2x) = 2tanx/(1+tan²x) = 2t/(1+t²)."
@@ -4984,12 +4984,12 @@
       "test": 11,
       "question": "A Ferris wheel has radius 25 m, its center is 30 m above ground, and one revolution takes 48 seconds. At t = 0 the rider is at the lowest point: h(t) = −25cos(πt/24) + 30. For how many seconds per revolution is the rider more than 42.5 m above the ground?",
       "choices": {
-        "A": "16",
-        "B": "12",
-        "C": "8",
-        "D": "24"
+        "A": "24",
+        "B": "8",
+        "C": "16",
+        "D": "12"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Set h > 42.5: −25cos(πt/24) > 12.5 → cos(πt/24) < −0.5. This holds when πt/24 ∈ (2π/3, 4π/3), i.e. t ∈ (16, 32). Duration = 16 seconds per revolution."
     },
     {
@@ -5001,9 +5001,9 @@
       "question": "Which expression is equivalent to sin(x + y) + sin(x − y)?",
       "choices": {
         "A": "2sin(x)cos(y)",
-        "B": "2cos(x)sin(y)",
-        "C": "2sin(x)sin(y)",
-        "D": "2cos(x)cos(y)"
+        "B": "2cos(x)cos(y)",
+        "C": "2cos(x)sin(y)",
+        "D": "2sin(x)sin(y)"
       },
       "answer": "A",
       "explanation": "Expand both terms and add: (sinx·cosy + cosx·siny) + (sinx·cosy − cosx·siny) = 2sinx·cosy."
@@ -5016,12 +5016,12 @@
       "test": 11,
       "question": "Which expression is equivalent to cos(4x) written only in terms of cos(x)?",
       "choices": {
-        "A": "8cos⁴x − 8cos²x + 1",
-        "B": "4cos⁴x − 3cosx",
-        "C": "2cos²(2x) + 1",
+        "A": "4cos⁴x − 3cosx",
+        "B": "2cos²(2x) + 1",
+        "C": "8cos⁴x − 8cos²x + 1",
         "D": "8cos²x − 4cos⁴x − 1"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "cos(4x) = 2cos²(2x) − 1 = 2(2cos²x − 1)² − 1 = 2(4cos⁴x − 4cos²x + 1) − 1 = 8cos⁴x − 8cos²x + 1."
     },
     {
@@ -5032,12 +5032,12 @@
       "test": 11,
       "question": "In triangle ABC, tan(A) = 2 and tan(B) = 3. What is tan(C)?",
       "choices": {
-        "A": "1",
-        "B": "6",
-        "C": "5",
+        "A": "5",
+        "B": "1",
+        "C": "6",
         "D": "-1"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "tan(A+B) = (2+3)/(1−6) = −1, so A+B = 3π/4. Since A+B+C = π, C = π/4 and tan(C) = 1."
     },
     {
@@ -5049,8 +5049,8 @@
       "question": "The expression sin(x) + √3·cos(x) is written as R·sin(x + φ) with R > 0 and 0 < φ < π/2. What are R and φ?",
       "choices": {
         "A": "R = 2, φ = π/3",
-        "B": "R = 4, φ = π/6",
-        "C": "R = 2, φ = π/6",
+        "B": "R = 2, φ = π/6",
+        "C": "R = 4, φ = π/6",
         "D": "R = √3, φ = π/3"
       },
       "answer": "A",
@@ -5064,12 +5064,12 @@
       "test": 11,
       "question": "How many solutions does sin(2x) = cos(x) have on [0°, 360°)?",
       "choices": {
-        "A": "4",
-        "B": "2",
-        "C": "3",
-        "D": "6"
+        "A": "3",
+        "B": "6",
+        "C": "4",
+        "D": "2"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "2sinx·cosx = cosx → cosx(2sinx − 1) = 0. cosx = 0: x = 90°, 270°. sinx = 1/2: x = 30°, 150°. Total: 4 solutions."
     },
     {
@@ -5082,8 +5082,8 @@
       "choices": {
         "A": "2 − √3",
         "B": "√3 − 2",
-        "C": "2 + √3",
-        "D": "(√6 − √2)/4"
+        "C": "(√6 − √2)/4",
+        "D": "2 + √3"
       },
       "answer": "A",
       "explanation": "tan(15°) = tan(45° − 30°) = (1 − 1/√3)/(1 + 1/√3) = (√3 − 1)/(√3 + 1). Rationalize: (√3 − 1)²/2 = (4 − 2√3)/2 = 2 − √3."
@@ -5096,12 +5096,12 @@
       "test": 11,
       "question": "What is the value of arctan(1/2) + arctan(1/3)?",
       "choices": {
-        "A": "π/4",
-        "B": "π/3",
-        "C": "π/6",
-        "D": "π/2"
+        "A": "π/3",
+        "B": "π/6",
+        "C": "π/2",
+        "D": "π/4"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Let α = arctan(1/2) and β = arctan(1/3). tan(α+β) = (1/2 + 1/3)/(1 − 1/6) = (5/6)/(5/6) = 1. Since α, β ∈ (0, π/4), their sum is in Q1, so α+β = π/4."
     },
     {
@@ -5112,12 +5112,12 @@
       "test": 11,
       "question": "Two sides of a triangle are 8 and 11, with an included angle of 120°. What is the area of the triangle?",
       "choices": {
-        "A": "22√3",
-        "B": "44",
-        "C": "44√3",
-        "D": "11√3"
+        "A": "44",
+        "B": "22√3",
+        "C": "11√3",
+        "D": "44√3"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Area = (1/2)(8)(11)sin(120°) = (1/2)(8)(11)(√3/2) = (88√3)/4 = 22√3."
     },
     {
@@ -5128,12 +5128,12 @@
       "test": 11,
       "question": "How many solutions does tan²(x) − (√3 + 1)tan(x) + √3 = 0 have on [0°, 360°)?",
       "choices": {
-        "A": "4",
-        "B": "2",
+        "A": "2",
+        "B": "4",
         "C": "3",
         "D": "6"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Factor: (tanx − √3)(tanx − 1) = 0. tanx = √3: x = 60°, 240°. tanx = 1: x = 45°, 225°. Total: 4 solutions."
     },
     {
@@ -5145,8 +5145,8 @@
       "question": "Which expression is equivalent to sin²(x)cos²(x)?",
       "choices": {
         "A": "(1 − cos(4x))/8",
-        "B": "(1 + cos(4x))/8",
-        "C": "sin²(2x)/2",
+        "B": "sin²(2x)/2",
+        "C": "(1 + cos(4x))/8",
         "D": "cos²(2x)/4"
       },
       "answer": "A",
@@ -5160,12 +5160,12 @@
       "test": 11,
       "question": "If cos(θ) = −7/25 and θ is in Quadrant II, what is sin(θ/2)?",
       "choices": {
-        "A": "4/5",
-        "B": "3/5",
+        "A": "√7/5",
+        "B": "4/5",
         "C": "2/5",
-        "D": "√7/5"
+        "D": "3/5"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "θ ∈ Q2 means π/4 < θ/2 < π/2, so sin(θ/2) > 0. sin(θ/2) = √((1 − cosθ)/2) = √((1 + 7/25)/2) = √(32/50) = √(16/25) = 4/5."
     },
     {
@@ -5176,12 +5176,12 @@
       "test": 11,
       "question": "If tan(A) = 3/4 with A in Quadrant I, and cos(B) = −5/13 with B in Quadrant II, what is cos(A + B)?",
       "choices": {
-        "A": "−56/65",
+        "A": "−16/65",
         "B": "16/65",
         "C": "56/65",
-        "D": "−16/65"
+        "D": "−56/65"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "sin(A) = 3/5, cos(A) = 4/5. sin(B) = 12/13 (Q2 → sin > 0). cos(A+B) = cos(A)cos(B) − sin(A)sin(B) = (4/5)(−5/13) − (3/5)(12/13) = −20/65 − 36/65 = −56/65."
     },
     {
@@ -5192,12 +5192,12 @@
       "test": 12,
       "question": "How many solutions does sin(x) + cos(x) = 1 have on [0, 2π)?",
       "choices": {
-        "A": "2",
-        "B": "1",
-        "C": "3",
-        "D": "4"
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Rewrite as √2·sin(x + π/4) = 1 → sin(x + π/4) = 1/√2. Solutions: x + π/4 = π/4 or 3π/4, giving x = 0 or x = π/2. Two solutions."
     },
     {
@@ -5210,8 +5210,8 @@
       "choices": {
         "A": "−4/3",
         "B": "4/3",
-        "C": "3/4",
-        "D": "−3/4"
+        "C": "−3/4",
+        "D": "3/4"
       },
       "answer": "A",
       "explanation": "θ ∈ Q3 → π < θ < 3π/2 → π/2 < θ/2 < 3π/4, so θ/2 is in Q2 → tan(θ/2) < 0. sin(θ) = −24/25 (Q3). tan(θ/2) = sinθ/(1 + cosθ) = (−24/25)/(1 − 7/25) = (−24/25)/(18/25) = −4/3."
@@ -5224,12 +5224,12 @@
       "test": 12,
       "question": "If sin(θ) = √5/5, what is cos(2θ)?",
       "choices": {
-        "A": "3/5",
-        "B": "2/5",
-        "C": "4/5",
-        "D": "1/5"
+        "A": "4/5",
+        "B": "1/5",
+        "C": "3/5",
+        "D": "2/5"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "sin²θ = 5/25 = 1/5. cos(2θ) = 1 − 2sin²θ = 1 − 2(1/5) = 3/5."
     },
     {
@@ -5240,12 +5240,12 @@
       "test": 12,
       "question": "How many solutions does sin(x)cos(x) − sin(x) − cos(x) + 1 = 0 have on [0°, 360°)?",
       "choices": {
-        "A": "2",
-        "B": "4",
-        "C": "3",
-        "D": "1"
+        "A": "1",
+        "B": "3",
+        "C": "2",
+        "D": "4"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Factor by grouping: sinx(cosx − 1) − (cosx − 1) = 0 → (sinx − 1)(cosx − 1) = 0. sinx = 1: x = 90°. cosx = 1: x = 0°. Two solutions."
     },
     {
@@ -5256,12 +5256,12 @@
       "test": 12,
       "question": "Tidal height is modeled by h(t) = 6sin(πt/6) + 8 (meters, t in hours). How many hours in a 24-hour period is the water level above 11 m?",
       "choices": {
-        "A": "8",
-        "B": "6",
-        "C": "12",
-        "D": "4"
+        "A": "6",
+        "B": "12",
+        "C": "4",
+        "D": "8"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "6sin(πt/6) > 3 → sin(πt/6) > 1/2 → πt/6 ∈ (π/6, 5π/6) → t ∈ (1, 5), a 4-hour window per 12-hour cycle. Over 24 hours: 4 × 2 = 8 hours."
     },
     {
@@ -5272,12 +5272,12 @@
       "test": 12,
       "question": "Which expression is equivalent to 1/(1 + sin(x)) + 1/(1 − sin(x))?",
       "choices": {
-        "A": "2sec²(x)",
-        "B": "2csc²(x)",
-        "C": "2",
-        "D": "2tan²(x)"
+        "A": "2tan²(x)",
+        "B": "2sec²(x)",
+        "C": "2csc²(x)",
+        "D": "2"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Combine: (1 − sinx + 1 + sinx)/((1 + sinx)(1 − sinx)) = 2/(1 − sin²x) = 2/cos²x = 2sec²x."
     },
     {
@@ -5288,12 +5288,12 @@
       "test": 12,
       "question": "If cos(α) = 1/3 and cos(β) = 1/4 with α and β both in Quadrant I, what is cos(α − β)?",
       "choices": {
-        "A": "(1 + 2√30)/12",
-        "B": "(1 − 2√30)/12",
+        "A": "(1 − 2√30)/12",
+        "B": "(1 + 2√30)/12",
         "C": "(√30 + 1)/12",
         "D": "1/12"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "sin(α) = 2√2/3, sin(β) = √15/4. cos(α−β) = cosα·cosβ + sinα·sinβ = (1/3)(1/4) + (2√2/3)(√15/4) = 1/12 + 2√30/12 = (1 + 2√30)/12."
     },
     {
@@ -5304,12 +5304,12 @@
       "test": 12,
       "question": "The function f(x) = 1 − 2sin²(x) is equivalent to which of the following?",
       "choices": {
-        "A": "cos(2x)",
-        "B": "sin(2x)",
-        "C": "−cos(2x)",
-        "D": "2cos²(x)"
+        "A": "sin(2x)",
+        "B": "−cos(2x)",
+        "C": "2cos²(x)",
+        "D": "cos(2x)"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Double angle formula: cos(2x) = 1 − 2sin²x. Therefore f(x) = cos(2x)."
     },
     {
@@ -5320,12 +5320,12 @@
       "test": 12,
       "question": "In a triangle with sides 7, 8, and 13, what is the measure of the largest angle?",
       "choices": {
-        "A": "120°",
-        "B": "90°",
-        "C": "135°",
-        "D": "150°"
+        "A": "135°",
+        "B": "150°",
+        "C": "120°",
+        "D": "90°"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Largest angle C is opposite side 13. cos(C) = (7² + 8² − 13²)/(2·7·8) = (49 + 64 − 169)/112 = −56/112 = −1/2. So C = 120°."
     },
     {
@@ -5336,12 +5336,12 @@
       "test": 12,
       "question": "Two observers are 1000 m apart on flat ground. The nearer one (B) sees the top of a cliff at 45° elevation; the farther one (A) sees it at 30°. How high is the cliff?",
       "choices": {
-        "A": "500(√3 + 1) m",
-        "B": "1000(√3 + 1) m",
-        "C": "500(√3 − 1) m",
-        "D": "1000√3/3 m"
+        "A": "500(√3 − 1) m",
+        "B": "1000√3/3 m",
+        "C": "1000(√3 + 1) m",
+        "D": "500(√3 + 1) m"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Let h = height, d = distance from B to base. tan(45°) = h/d → d = h. tan(30°) = h/(d + 1000) → h/√3 = h/(h + 1000) → h(√3 − 1) = 1000 → h = 1000/(√3−1) = 500(√3+1)."
     },
     {
@@ -5353,9 +5353,9 @@
       "question": "How many solutions does cos(2x) = 1 − sin(x) have on [0°, 360°)?",
       "choices": {
         "A": "4",
-        "B": "2",
-        "C": "3",
-        "D": "5"
+        "B": "3",
+        "C": "5",
+        "D": "2"
       },
       "answer": "A",
       "explanation": "Replace cos(2x) = 1 − 2sin²x: 1 − 2sin²x = 1 − sinx → 2sin²x − sinx = 0 → sinx(2sinx − 1) = 0. sinx = 0: x = 0°, 180°. sinx = 1/2: x = 30°, 150°. Four solutions."
@@ -5368,12 +5368,12 @@
       "test": 12,
       "question": "Which expression is equivalent to cos(3x)cos(x) using the product-to-sum formula?",
       "choices": {
-        "A": "(1/2)[cos(2x) + cos(4x)]",
+        "A": "cos²(2x)",
         "B": "(1/2)[cos(2x) − cos(4x)]",
-        "C": "cos²(2x)",
-        "D": "(1/2)cos(4x)"
+        "C": "(1/2)cos(4x)",
+        "D": "(1/2)[cos(2x) + cos(4x)]"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Product-to-sum: cos(A)cos(B) = (1/2)[cos(A−B) + cos(A+B)]. cos(3x)cos(x) = (1/2)[cos(2x) + cos(4x)]."
     },
     {
@@ -5384,12 +5384,12 @@
       "test": 12,
       "question": "In triangle ABC, tan(A)·tan(B)·tan(C) = 8 and tan(A)tan(B) + tan(B)tan(C) + tan(A)tan(C) = 14. What is tan(A) + tan(B) + tan(C)?",
       "choices": {
-        "A": "8",
-        "B": "14",
+        "A": "14",
+        "B": "6",
         "C": "22",
-        "D": "6"
+        "D": "8"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Identity: in any triangle (A+B+C = π), tan(A) + tan(B) + tan(C) = tan(A)·tan(B)·tan(C). Therefore the answer equals 8."
     },
     {
@@ -5400,12 +5400,12 @@
       "test": 12,
       "question": "Which expression is equivalent to (cos(3x) + cos(x)) / (2cos(2x))?",
       "choices": {
-        "A": "cos(x)",
+        "A": "sin(x)",
         "B": "cos(2x)",
-        "C": "sin(x)",
+        "C": "cos(x)",
         "D": "1"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Sum-to-product: cos(3x) + cosx = 2cos(2x)cos(x). Therefore (2cos(2x)cosx)/(2cos(2x)) = cos(x)."
     },
     {
@@ -5432,12 +5432,12 @@
       "test": 12,
       "question": "If sin(α) = 2/3 with α in Q1 and sin(β) = −1/3 with β in Q4, what is sin(α + β)?",
       "choices": {
-        "A": "(4√2 − √5)/9",
-        "B": "(4√2 + √5)/9",
-        "C": "(2√5 − √2)/9",
-        "D": "−(4√2 + √5)/9"
+        "A": "−(4√2 + √5)/9",
+        "B": "(2√5 − √2)/9",
+        "C": "(4√2 − √5)/9",
+        "D": "(4√2 + √5)/9"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "cos(α) = √5/3, cos(β) = 2√2/3 (Q4, cos > 0). sin(α+β) = sinα·cosβ + cosα·sinβ = (2/3)(2√2/3) + (√5/3)(−1/3) = 4√2/9 − √5/9 = (4√2 − √5)/9."
     },
     {
@@ -5448,12 +5448,12 @@
       "test": 12,
       "question": "A regular hexagon is inscribed in a circle of radius 6. What is the area of the hexagon?",
       "choices": {
-        "A": "54√3",
-        "B": "36√3",
-        "C": "108√3",
-        "D": "72"
+        "A": "72",
+        "B": "108√3",
+        "C": "36√3",
+        "D": "54√3"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "A regular hexagon consists of 6 equilateral triangles with side length r = 6. Each triangle has area = (√3/4)(6²) = 9√3. Total area = 54√3."
     },
     {
@@ -5480,12 +5480,12 @@
       "test": 12,
       "question": "Which expression is equivalent to sin⁶(x) + cos⁶(x)?",
       "choices": {
-        "A": "1 − 3sin²(x)cos²(x)",
-        "B": "1 − 2sin²(x)cos²(x)",
-        "C": "1 − sin²(x)cos²(x)",
+        "A": "1 − sin²(x)cos²(x)",
+        "B": "1 − 3sin²(x)cos²(x)",
+        "C": "1 − 2sin²(x)cos²(x)",
         "D": "1 − 4sin²(x)cos²(x)"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Using a³+b³ = (a+b)(a²−ab+b²) with a = sin²x, b = cos²x: (1)((sin²x+cos²x)² − 3sin²xcos²x) = 1 − 3sin²xcos²x."
     },
     {
@@ -5496,12 +5496,12 @@
       "test": 12,
       "question": "Which of the following is equivalent to sin(x)/(1 + cos(x))?",
       "choices": {
-        "A": "tan(x/2)",
+        "A": "sin(x/2)",
         "B": "cot(x/2)",
-        "C": "sin(x/2)",
+        "C": "tan(x/2)",
         "D": "cos(x/2)"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Using half-angle identities: sinx = 2sin(x/2)cos(x/2) and 1 + cosx = 2cos²(x/2). So sinx/(1+cosx) = 2sin(x/2)cos(x/2) / 2cos²(x/2) = sin(x/2)/cos(x/2) = tan(x/2)."
     },
     {
@@ -5512,12 +5512,12 @@
       "test": 12,
       "question": "If sin(θ) = 3/5 with θ in Quadrant I, what is sin(3θ)?",
       "choices": {
-        "A": "117/125",
-        "B": "−117/125",
-        "C": "44/125",
-        "D": "108/125"
+        "A": "108/125",
+        "B": "117/125",
+        "C": "−117/125",
+        "D": "44/125"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Triple angle formula: sin(3θ) = 3sinθ − 4sin³θ = 3(3/5) − 4(27/125) = 9/5 − 108/125 = 225/125 − 108/125 = 117/125."
     },
     {
@@ -5544,12 +5544,12 @@
       "test": 12,
       "question": "Which expression is equivalent to cos(5x)?",
       "choices": {
-        "A": "16cos⁵x − 20cos³x + 5cosx",
-        "B": "16cos⁵x − 12cos³x + cosx",
-        "C": "5cosx − 20cos³x + 16cos⁵x − 1",
-        "D": "8cos⁵x − 10cos³x + 3cosx"
+        "A": "5cosx − 20cos³x + 16cos⁵x − 1",
+        "B": "8cos⁵x − 10cos³x + 3cosx",
+        "C": "16cos⁵x − 12cos³x + cosx",
+        "D": "16cos⁵x − 20cos³x + 5cosx"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "By the Chebyshev expansion (apply the double-angle formula recursively): cos(5x) = 16cos⁵x − 20cos³x + 5cosx."
     },
     {
@@ -5560,12 +5560,12 @@
       "test": 12,
       "question": "In a triangle, sides a = 12 and b = 15 with included angle C = 60°. What is the length of side c?",
       "choices": {
-        "A": "3√21",
+        "A": "13",
         "B": "3√19",
-        "C": "√189",
-        "D": "13"
+        "C": "3√21",
+        "D": "√189"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Law of Cosines: c² = a² + b² − 2ab·cos(C) = 144 + 225 − 2(12)(15)(1/2) = 369 − 180 = 189. c = √189 = √(9·21) = 3√21."
     },
     {
@@ -5577,9 +5577,9 @@
       "question": "A point on a rotating wheel has height h(t) = r·sin(ωt + φ) above the center. The period is 4 seconds, and at t = 0 the height is r/√2 and increasing. What is φ?",
       "choices": {
         "A": "π/4",
-        "B": "3π/4",
-        "C": "π/6",
-        "D": "π/3"
+        "B": "π/6",
+        "C": "π/3",
+        "D": "3π/4"
       },
       "answer": "A",
       "explanation": "Period = 2π/ω = 4 → ω = π/2. h(0) = r·sin(φ) = r/√2 → sin(φ) = 1/√2 → φ = π/4 or 3π/4. h'(0) = rω·cos(φ) > 0 (height increasing) → cos(φ) > 0 → φ = π/4."
@@ -5609,8 +5609,8 @@
       "question": "If (x − 3) is a factor of p(x) = x³ − kx² + 5x − 6, what is k?",
       "choices": {
         "A": "4",
-        "B": "3",
-        "C": "2",
+        "B": "2",
+        "C": "3",
         "D": "6"
       },
       "answer": "A",
@@ -5624,12 +5624,12 @@
       "test": 13,
       "question": "The function f(x) = 3x² − 12x + 7 has its minimum at (a, b). What is a + b?",
       "choices": {
-        "A": "−3",
-        "B": "3",
+        "A": "3",
+        "B": "−3",
         "C": "−7",
         "D": "2"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Complete the square: 3(x−2)²−12+7 = 3(x−2)²−5. Vertex (a, b) = (2, −5). a+b = 2+(−5) = −3."
     },
     {
@@ -5640,12 +5640,12 @@
       "test": 13,
       "question": "The system y = x² − 3x + 2 and y = x + k has exactly one solution. What is k?",
       "choices": {
-        "A": "−2",
-        "B": "2",
-        "C": "−4",
-        "D": "4"
+        "A": "2",
+        "B": "−2",
+        "C": "4",
+        "D": "−4"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Set equal: x²−3x+2 = x+k → x²−4x+(2−k) = 0. For exactly one solution, discriminant = 0: 16−4(2−k) = 0 → 4k = −8 → k = −2."
     },
     {
@@ -5656,12 +5656,12 @@
       "test": 13,
       "question": "(x+3)/(x−2) − (x−1)/(x+2) = 3. What is the sum of all valid solutions?",
       "choices": {
-        "A": "8/3",
-        "B": "4",
-        "C": "−4/3",
+        "A": "−4/3",
+        "B": "8/3",
+        "C": "4",
         "D": "3"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Multiply through by (x−2)(x+2): (x+3)(x+2)−(x−1)(x−2) = 3(x²−4) → 8x+4 = 3x²−12 → 3x²−8x−16 = 0 → (3x+4)(x−4) = 0. x = −4/3 or x = 4 (neither equals ±2). Sum = −4/3+4 = 8/3."
     },
     {
@@ -5672,12 +5672,12 @@
       "test": 13,
       "question": "If 2^(x+3) = 5^x, which expression equals x?",
       "choices": {
-        "A": "3log(2) / (log(5)−log(2))",
-        "B": "log(8)/log(5)",
-        "C": "3/(log(5)−log(2))",
-        "D": "log(2)/log(5)"
+        "A": "log(8)/log(5)",
+        "B": "log(2)/log(5)",
+        "C": "3log(2) / (log(5)−log(2))",
+        "D": "3/(log(5)−log(2))"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "(x+3)log2 = x·log5 → x(log5−log2) = 3log2 → x = 3log2/(log5−log2). This equals log₍₅/₂₎8."
     },
     {
@@ -5688,12 +5688,12 @@
       "test": 13,
       "question": "What is the real part of (2 + 3i)²?",
       "choices": {
-        "A": "−5",
-        "B": "5",
-        "C": "−9",
-        "D": "4"
+        "A": "5",
+        "B": "−9",
+        "C": "4",
+        "D": "−5"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "(2+3i)² = 4+12i+9i² = 4+12i−9 = −5+12i. Real part = −5."
     },
     {
@@ -5705,9 +5705,9 @@
       "question": "p(x) = x⁴−2x³+5x−4. If r₁ = p(1) and r₂ = p(−2), what is r₁−r₂?",
       "choices": {
         "A": "−18",
-        "B": "18",
-        "C": "0",
-        "D": "−4"
+        "B": "0",
+        "C": "−4",
+        "D": "18"
       },
       "answer": "A",
       "explanation": "p(1) = 1−2+5−4 = 0. p(−2) = 16+16−10−4 = 18. r₁−r₂ = 0−18 = −18."
@@ -5721,9 +5721,9 @@
       "question": "If f(x) = (2x−1)/(x+3) and g(f(x)) = x for all valid x, what is g(x)?",
       "choices": {
         "A": "(3x+1)/(2−x)",
-        "B": "(x+3)/(2x−1)",
-        "C": "(3x−1)/(x+2)",
-        "D": "(2x+1)/(x−3)"
+        "B": "(2x+1)/(x−3)",
+        "C": "(x+3)/(2x−1)",
+        "D": "(3x−1)/(x+2)"
       },
       "answer": "A",
       "explanation": "g is the inverse of f. Let y = (2x−1)/(x+3): y(x+3) = 2x−1 → x(y−2) = −3y−1 → x = (3y+1)/(2−y). So g(x) = (3x+1)/(2−x)."
@@ -5736,12 +5736,12 @@
       "test": 13,
       "question": "The solution set of |2x − 5| > 9 is x < a or x > b. What is a + b?",
       "choices": {
-        "A": "5",
-        "B": "9",
-        "C": "−5",
+        "A": "−5",
+        "B": "5",
+        "C": "9",
         "D": "7"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "2x−5 > 9 → x > 7 (b = 7). 2x−5 < −9 → x < −2 (a = −2). a+b = −2+7 = 5."
     },
     {
@@ -5753,9 +5753,9 @@
       "question": "For √(2x+1) = x−1, which value of x is an extraneous solution?",
       "choices": {
         "A": "x = 0",
-        "B": "x = 4",
-        "C": "x = −1",
-        "D": "x = 2"
+        "B": "x = −1",
+        "C": "x = 2",
+        "D": "x = 4"
       },
       "answer": "A",
       "explanation": "Square both sides: 2x+1 = x²−2x+1 → x²−4x = 0 → x = 0 or x = 4. Check x = 0: √1 = −1? No — extraneous. Check x = 4: √9 = 3 ✓."
@@ -5768,12 +5768,12 @@
       "test": 13,
       "question": "A geometric sequence with first term 4 has sum of its first 4 terms equal to 60. What is the common ratio?",
       "choices": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "√2"
+        "A": "4",
+        "B": "2",
+        "C": "√2",
+        "D": "3"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "4(1+r+r²+r³) = 60 → r³+r²+r−14 = 0. Test r = 2: 8+4+2−14 = 0 ✓. Common ratio = 2."
     },
     {
@@ -5784,12 +5784,12 @@
       "test": 13,
       "question": "For what values of k does x² + 4x + k = 0 have no real solutions?",
       "choices": {
-        "A": "k > 4",
-        "B": "k < 4",
-        "C": "k ≥ 4",
-        "D": "k < −4"
+        "A": "k ≥ 4",
+        "B": "k < −4",
+        "C": "k > 4",
+        "D": "k < 4"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Discriminant < 0: 16−4k < 0 → k > 4."
     },
     {
@@ -5800,12 +5800,12 @@
       "test": 13,
       "question": "If f(x) = x³ − x and g(x) = f(2x−4), what is g(3)?",
       "choices": {
-        "A": "6",
-        "B": "−6",
-        "C": "2",
+        "A": "−6",
+        "B": "2",
+        "C": "6",
         "D": "27"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "g(x) = f(2x−4). g(3) = f(2·3−4) = f(2). f(2) = 2³−2 = 6."
     },
     {
@@ -5816,12 +5816,12 @@
       "test": 13,
       "question": "In the expansion of (x + 2)⁵, what is the coefficient of x³?",
       "choices": {
-        "A": "40",
-        "B": "80",
-        "C": "10",
+        "A": "10",
+        "B": "40",
+        "C": "80",
         "D": "20"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "C(5,2)·x³·2² = 10·4·x³. Coefficient = 40."
     },
     {
@@ -5832,12 +5832,12 @@
       "test": 14,
       "question": "For p(x) = x⁴−2x³+5x−4, let r₁ = p(1) and r₂ = p(−2). What is r₁−r₂?",
       "choices": {
-        "A": "−18",
-        "B": "18",
-        "C": "−4",
-        "D": "22"
+        "A": "22",
+        "B": "−4",
+        "C": "18",
+        "D": "−18"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "p(1) = 1−2+5−4 = 0. p(−2) = 16+16−10−4 = 18. r₁−r₂ = 0−18 = −18."
     },
     {
@@ -5848,12 +5848,12 @@
       "test": 14,
       "question": "One root of 2x³ − 5x² − 4x + 3 = 0 is x = 3. What is the product of the other two roots?",
       "choices": {
-        "A": "−1/2",
-        "B": "1/2",
-        "C": "−1",
-        "D": "−3/2"
+        "A": "−1",
+        "B": "−3/2",
+        "C": "1/2",
+        "D": "−1/2"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Synthetic division by (x−3) gives quotient 2x²+x−1 = (2x−1)(x+1). Other roots: x = 1/2 and x = −1. Product = (1/2)(−1) = −1/2."
     },
     {
@@ -5880,12 +5880,12 @@
       "test": 14,
       "question": "If x + y = 5 and xy = 3, what is x³ + y³?",
       "choices": {
-        "A": "80",
-        "B": "50",
-        "C": "65",
-        "D": "110"
+        "A": "50",
+        "B": "110",
+        "C": "80",
+        "D": "65"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "x³+y³ = (x+y)((x+y)²−3xy) = 5(25−9) = 5·16 = 80."
     },
     {
@@ -5896,12 +5896,12 @@
       "test": 14,
       "question": "If f(x) = (3x+2)/(x−5), what is f⁻¹(x)?",
       "choices": {
-        "A": "(5x+2)/(x−3)",
+        "A": "(5x−2)/(x+3)",
         "B": "(x−5)/(3x+2)",
-        "C": "(5x−2)/(x+3)",
-        "D": "(3x+2)/(x+5)"
+        "C": "(3x+2)/(x+5)",
+        "D": "(5x+2)/(x−3)"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Let y = (3x+2)/(x−5). Solve for x: y(x−5) = 3x+2 → x(y−3) = 5y+2 → x = (5y+2)/(y−3). So f⁻¹(x) = (5x+2)/(x−3)."
     },
     {
@@ -5913,9 +5913,9 @@
       "question": "What is the real part of (1 + i)³?",
       "choices": {
         "A": "−2",
-        "B": "2",
+        "B": "−8",
         "C": "−1",
-        "D": "−8"
+        "D": "2"
       },
       "answer": "A",
       "explanation": "(1+i)² = 2i. (1+i)³ = 2i·(1+i) = 2i+2i² = −2+2i. Real part = −2."
@@ -5928,12 +5928,12 @@
       "test": 14,
       "question": "A population of 5,000 doubles every 12 years. After how many years will the population be exactly 40,000?",
       "choices": {
-        "A": "36",
-        "B": "24",
-        "C": "48",
-        "D": "12"
+        "A": "48",
+        "B": "12",
+        "C": "36",
+        "D": "24"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "5000·2^(t/12) = 40000 → 2^(t/12) = 8 = 2³ → t/12 = 3 → t = 36 years."
     },
     {
@@ -5944,12 +5944,12 @@
       "test": 14,
       "question": "Which of the following correctly describes the solution set of (x−1)(x−4)(x−6) > 0?",
       "choices": {
-        "A": "(1, 4) ∪ (6, ∞)",
-        "B": "(−∞, 1) ∪ (4, 6)",
+        "A": "(1, 6)",
+        "B": "(1, 4) ∪ (6, ∞)",
         "C": "(4, 6)",
-        "D": "(1, 6)"
+        "D": "(−∞, 1) ∪ (4, 6)"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Sign analysis: positive when 1 < x < 4 (one negative factor) or x > 6 (all positive). Solution: (1, 4) ∪ (6, ∞)."
     },
     {
@@ -5960,12 +5960,12 @@
       "test": 14,
       "question": "The roots r and s of 3x² − 7x + k = 0 satisfy r² + s² = 37/9. What is k?",
       "choices": {
-        "A": "2",
-        "B": "−2",
-        "C": "4",
-        "D": "3"
+        "A": "3",
+        "B": "2",
+        "C": "−2",
+        "D": "4"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "r+s = 7/3, rs = k/3. r²+s² = (7/3)²−2(k/3) = 49/9−2k/3 = 37/9. Solving: 2k/3 = 12/9 = 4/3 → k = 2."
     },
     {
@@ -5976,12 +5976,12 @@
       "test": 14,
       "question": "f(x) = x²+1 for x < 0; f(x) = 2x−3 for 0 ≤ x < 4; f(x) = x³−60 for x ≥ 4. What is f(f(−2))?",
       "choices": {
-        "A": "65",
+        "A": "7",
         "B": "5",
-        "C": "60",
-        "D": "7"
+        "C": "65",
+        "D": "60"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "f(−2) = (−2)²+1 = 5 (uses x < 0 branch). f(5) = 5³−60 = 65 (uses x ≥ 4 branch)."
     },
     {
@@ -5993,9 +5993,9 @@
       "question": "The sum of the first n terms of a sequence is Sₙ = 3n² + 5n. What is the 10th term?",
       "choices": {
         "A": "62",
-        "B": "350",
-        "C": "58",
-        "D": "60"
+        "B": "60",
+        "C": "350",
+        "D": "58"
       },
       "answer": "A",
       "explanation": "aₙ = Sₙ−Sₙ₋₁ = (3n²+5n)−(3(n−1)²+5(n−1)) = 6n+2. a₁₀ = 60+2 = 62."
@@ -6009,8 +6009,8 @@
       "question": "log₂(x) + log₂(x − 6) = 4. What is x?",
       "choices": {
         "A": "8",
-        "B": "−2",
-        "C": "4",
+        "B": "4",
+        "C": "−2",
         "D": "16"
       },
       "answer": "A",
@@ -6025,9 +6025,9 @@
       "question": "A cubic polynomial with real coefficients has roots 2 and 3+i. What is the constant term of the polynomial (leading coefficient 1)?",
       "choices": {
         "A": "−20",
-        "B": "20",
-        "C": "−10",
-        "D": "−12"
+        "B": "−10",
+        "C": "−12",
+        "D": "20"
       },
       "answer": "A",
       "explanation": "Complex roots come in conjugate pairs, so 3−i is also a root. p(x) = (x−2)(x−(3+i))(x−(3−i)) = (x−2)(x²−6x+10) = x³−8x²+22x−20. Constant term = −20."
@@ -6040,12 +6040,12 @@
       "test": 14,
       "question": "For f(x) = x² + 3x, the average rate of change from x = a to x = a + 2 equals 11. What is a?",
       "choices": {
-        "A": "3",
-        "B": "4",
+        "A": "4",
+        "B": "5",
         "C": "2",
-        "D": "5"
+        "D": "3"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "[f(a+2)−f(a)]/2 = [(a+2)²+3(a+2)−a²−3a]/2 = (4a+10)/2 = 2a+5 = 11 → a = 3."
     },
     {
@@ -6056,12 +6056,12 @@
       "test": 14,
       "question": "Simplify (x^(2/3) · x^(1/2))^6 / x^5.",
       "choices": {
-        "A": "x²",
-        "B": "x^(7/30)",
-        "C": "x^(1/5)",
-        "D": "x^(7/5)"
+        "A": "x^(7/5)",
+        "B": "x²",
+        "C": "x^(7/30)",
+        "D": "x^(1/5)"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "x^(2/3+1/2) = x^(7/6). Raised to the 6th power: x^7. Divide by x^5: x²."
     },
     {
@@ -6072,12 +6072,12 @@
       "test": 15,
       "question": "If f(x) = x/(x−1) and g(x) = 1/(1−x), what is f(g(x))?",
       "choices": {
-        "A": "1/x",
-        "B": "x",
-        "C": "1/(1−x)",
-        "D": "x/(x−1)"
+        "A": "x/(x−1)",
+        "B": "1/x",
+        "C": "x",
+        "D": "1/(1−x)"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "g(x) = 1/(1−x). g(x)−1 = x/(1−x). f(g(x)) = g(x)/(g(x)−1) = [1/(1−x)] / [x/(1−x)] = 1/x."
     },
     {
@@ -6088,12 +6088,12 @@
       "test": 15,
       "question": "If f(x) = 2x+3 and g(x) = x², what is (f∘g)⁻¹(x) for x ≥ 3?",
       "choices": {
-        "A": "√((x−3)/2)",
-        "B": "√(x/2−3)",
+        "A": "√(x/2−3)",
+        "B": "(x−3)²/4",
         "C": "(√x−3)/2",
-        "D": "(x−3)²/4"
+        "D": "√((x−3)/2)"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "(f∘g)(x) = 2x²+3. Inverse: y = 2x²+3 → x² = (y−3)/2 → x = √((y−3)/2). So (f∘g)⁻¹(x) = √((x−3)/2)."
     },
     {
@@ -6104,12 +6104,12 @@
       "test": 15,
       "question": "The roots of x² + px + q = 0 differ by 4 and their squares sum to 40. If p > 0, what is q?",
       "choices": {
-        "A": "12",
-        "B": "−12",
-        "C": "8",
-        "D": "16"
+        "A": "−12",
+        "B": "16",
+        "C": "12",
+        "D": "8"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "(r−s)² = p²−4q = 16 and r²+s² = p²−2q = 40. Subtracting: 2q = 24 → q = 12. Then p² = 64 → p = 8."
     },
     {
@@ -6120,12 +6120,12 @@
       "test": 15,
       "question": "The system 2x + ky = 4 and kx + 8y = 6 has no solution for which values of k?",
       "choices": {
-        "A": "k = 4 or k = −4",
-        "B": "k = 4 only",
+        "A": "k = ±2",
+        "B": "k = 4 or k = −4",
         "C": "k = −4 only",
-        "D": "k = ±2"
+        "D": "k = 4 only"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "For no solution: coefficients proportional but constants not. 2/k = k/8 → k² = 16 → k = ±4. Check: both give 4/6 ≠ ½ or ≠ −½, confirming no solution for both."
     },
     {
@@ -6136,12 +6136,12 @@
       "test": 15,
       "question": "A colony grows by a factor of 2.5 every 10 years. Starting with 1,000 in 2020, what is the population in 2050?",
       "choices": {
-        "A": "15,625",
-        "B": "7,500",
-        "C": "16,000",
-        "D": "31,250"
+        "A": "16,000",
+        "B": "15,625",
+        "C": "31,250",
+        "D": "7,500"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "30 years = 3 periods. 1000 × 2.5³ = 1000 × 15.625 = 15,625."
     },
     {
@@ -6152,12 +6152,12 @@
       "test": 15,
       "question": "The equation x² + y² − 6x + 4y − 3 = 0 describes a circle. What is its radius?",
       "choices": {
-        "A": "4",
-        "B": "16",
-        "C": "√7",
-        "D": "3"
+        "A": "√7",
+        "B": "3",
+        "C": "4",
+        "D": "16"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Complete the square: (x−3)²−9+(y+2)²−4−3 = 0 → (x−3)²+(y+2)² = 16. Radius = √16 = 4."
     },
     {
@@ -6168,12 +6168,12 @@
       "test": 15,
       "question": "An infinite geometric series has sum 15 and first term 5. What is the common ratio?",
       "choices": {
-        "A": "2/3",
+        "A": "3/5",
         "B": "1/3",
-        "C": "3/5",
-        "D": "4/5"
+        "C": "4/5",
+        "D": "2/3"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "S = a/(1−r): 15 = 5/(1−r) → 1−r = 1/3 → r = 2/3."
     },
     {
@@ -6185,8 +6185,8 @@
       "question": "A monic cubic polynomial has a double root at x = 2 and the sum of all roots is 7. What is the polynomial's constant term?",
       "choices": {
         "A": "−12",
-        "B": "12",
-        "C": "−6",
+        "B": "−6",
+        "C": "12",
         "D": "24"
       },
       "answer": "A",
@@ -6200,12 +6200,12 @@
       "test": 15,
       "question": "f(x) = (2x²−3x+c)/(x−k) has no vertical asymptote. If k = 2, what must c equal?",
       "choices": {
-        "A": "−2",
-        "B": "2",
-        "C": "−8",
-        "D": "4"
+        "A": "−8",
+        "B": "−2",
+        "C": "4",
+        "D": "2"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "No vertical asymptote requires (x−k) to be a factor of the numerator. 2(2)²−3(2)+c = 0 → 8−6+c = 0 → c = −2."
     },
     {
@@ -6216,12 +6216,12 @@
       "test": 15,
       "question": "If a + b = p and ab = q, which expression equals a³ + b³?",
       "choices": {
-        "A": "p³ − 3pq",
-        "B": "p³ + 3pq",
-        "C": "p³ − 3q",
-        "D": "p² − 3pq"
+        "A": "p² − 3pq",
+        "B": "p³ − 3pq",
+        "C": "p³ + 3pq",
+        "D": "p³ − 3q"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "a³+b³ = (a+b)³−3ab(a+b) = p³−3qp = p³−3pq."
     },
     {
@@ -6232,12 +6232,12 @@
       "test": 15,
       "question": "How many distinct complex solutions does z⁴ = 16 have?",
       "choices": {
-        "A": "4",
-        "B": "2",
-        "C": "1",
+        "A": "1",
+        "B": "4",
+        "C": "2",
         "D": "3"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "z⁴ = 16 → z = 2, 2i, −2, −2i (the four 4th roots of 16). Four distinct complex solutions."
     },
     {
@@ -6250,8 +6250,8 @@
       "choices": {
         "A": "−160",
         "B": "160",
-        "C": "−20",
-        "D": "80"
+        "C": "80",
+        "D": "−20"
       },
       "answer": "A",
       "explanation": "General term: C(6,k)·(2x)^(6−k)·(−1/x)^k = C(6,k)·2^(6−k)·(−1)^k·x^(6−2k). Constant: 6−2k = 0 → k = 3. C(6,3)·2³·(−1)³ = 20·8·(−1) = −160."
@@ -6264,12 +6264,12 @@
       "test": 15,
       "question": "How many real solutions does |x² − 4| = 3x have?",
       "choices": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "1"
+        "A": "1",
+        "B": "4",
+        "C": "2",
+        "D": "3"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Case 1 (x²≥4): x²−3x−4=0 → x=4 ✓ or x=−1 ✗ (not in domain x≤−2 or x≥2). Case 2 (x²<4): x²+3x−4=0 → x=1 ✓ or x=−4 ✗. Two solutions: x=1 and x=4."
     },
     {
@@ -6280,12 +6280,12 @@
       "test": 15,
       "question": "A sequence is defined by a₁ = 2 and aₙ₊₁ = 2aₙ + 3. What is a₅?",
       "choices": {
-        "A": "77",
-        "B": "75",
-        "C": "79",
-        "D": "37"
+        "A": "75",
+        "B": "77",
+        "C": "37",
+        "D": "79"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "a₁=2, a₂=7, a₃=17, a₄=37, a₅=2(37)+3=77."
     },
     {
@@ -6296,12 +6296,12 @@
       "test": 15,
       "question": "A parabola has vertex (−3, 5) and passes through (0, −4). In f(x) = a(x+3)² + 5, what is a?",
       "choices": {
-        "A": "−1",
-        "B": "1",
+        "A": "1",
+        "B": "−1",
         "C": "−9",
         "D": "−4/9"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "f(0) = a(9)+5 = −4 → 9a = −9 → a = −1."
     },
     {
@@ -6312,12 +6312,12 @@
       "test": 16,
       "question": "If f(x) = x³ − x and g(x) = −f(x−2) + 1, what is g(3)?",
       "choices": {
-        "A": "1",
+        "A": "−7",
         "B": "−1",
         "C": "7",
-        "D": "−7"
+        "D": "1"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "g(3) = −f(3−2)+1 = −f(1)+1 = −(1−1)+1 = 0+1 = 1."
     },
     {
@@ -6329,9 +6329,9 @@
       "question": "What is the sum of the infinite series 1 − 1/3 + 1/9 − 1/27 + ⋯?",
       "choices": {
         "A": "3/4",
-        "B": "2/3",
-        "C": "1/2",
-        "D": "4/3"
+        "B": "4/3",
+        "C": "2/3",
+        "D": "1/2"
       },
       "answer": "A",
       "explanation": "Geometric series with a = 1, r = −1/3. S = 1/(1−(−1/3)) = 1/(4/3) = 3/4."
@@ -6345,8 +6345,8 @@
       "question": "A monic cubic polynomial has roots whose sum is 6, pairwise product sum is 11, and triple product is 6. Which polynomial has these roots?",
       "choices": {
         "A": "x³ − 6x² + 11x − 6",
-        "B": "x³ + 6x² − 11x + 6",
-        "C": "x³ − 6x² − 11x + 6",
+        "B": "x³ − 6x² − 11x + 6",
+        "C": "x³ + 6x² − 11x + 6",
         "D": "x³ + 11x − 6"
       },
       "answer": "A",
@@ -6360,12 +6360,12 @@
       "test": 16,
       "question": "The line y = x + k is tangent to the circle x² + y² = 25. What are the possible values of k?",
       "choices": {
-        "A": "k = ±5√2",
-        "B": "k = ±5",
-        "C": "k = ±7",
-        "D": "k = ±10"
+        "A": "k = ±10",
+        "B": "k = ±7",
+        "C": "k = ±5√2",
+        "D": "k = ±5"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Substituting y = x+k: x²+(x+k)² = 25 → 2x²+2kx+k²−25 = 0. For tangency, discriminant = 0: 4k²−8(k²−25) = 0 → −4k²+200 = 0 → k² = 50 → k = ±5√2."
     },
     {
@@ -6377,9 +6377,9 @@
       "question": "Solve: (x + 1)/(x − 3) > 2. Which is the solution set?",
       "choices": {
         "A": "3 < x < 7",
-        "B": "x < 3 or x > 7",
+        "B": "x < 7",
         "C": "x > 7",
-        "D": "x < 7"
+        "D": "x < 3 or x > 7"
       },
       "answer": "A",
       "explanation": "(x+1)/(x−3)−2 > 0 → (x+1−2(x−3))/(x−3) > 0 → (7−x)/(x−3) > 0. Both factors positive: 3 < x < 7. Both negative: x < 3 and x > 7 — impossible. Solution: 3 < x < 7."
@@ -6392,12 +6392,12 @@
       "test": 16,
       "question": "What is the equation of the slant asymptote of f(x) = (x³−3x+2)/(x²−1)?",
       "choices": {
-        "A": "y = x",
-        "B": "y = x+1",
-        "C": "y = x−1",
-        "D": "y = 2x"
+        "A": "y = 2x",
+        "B": "y = x−1",
+        "C": "y = x",
+        "D": "y = x+1"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Factor: x³−3x+2 = (x−1)²(x+2) and x²−1 = (x−1)(x+1). f(x) = (x−1)(x+2)/(x+1). Divide x²+x−2 by x+1: quotient x, remainder −2. Slant asymptote: y = x."
     },
     {
@@ -6408,12 +6408,12 @@
       "test": 16,
       "question": "The function f(x) = 2(x−3)²−8 has x-intercepts at x = a and x = b with a < b. What is 2a + b?",
       "choices": {
-        "A": "7",
+        "A": "8",
         "B": "6",
-        "C": "8",
+        "C": "7",
         "D": "11"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "2(x−3)² = 8 → (x−3)² = 4 → x = 1 or x = 5. a = 1, b = 5. 2(1)+5 = 7."
     },
     {
@@ -6424,12 +6424,12 @@
       "test": 16,
       "question": "The curves y = x² and y = −x² + 8 intersect at two points. What is the y-coordinate of each intersection?",
       "choices": {
-        "A": "4",
+        "A": "8",
         "B": "2",
-        "C": "8",
+        "C": "4",
         "D": "±4"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "x² = −x²+8 → 2x² = 8 → x = ±2. y = (±2)² = 4. Both intersection points have y = 4."
     },
     {
@@ -6440,12 +6440,12 @@
       "test": 16,
       "question": "How many integers n satisfy |n² − 5n| < 6?",
       "choices": {
-        "A": "4",
-        "B": "6",
-        "C": "3",
-        "D": "5"
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "3"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Need −6 < n²−5n < 6. Upper bound (n−6)(n+1) < 0 → −1 < n < 6. Lower bound (n−2)(n−3) > 0 → n < 2 or n > 3. Integers in (−1,2): 0, 1. Integers in (3,6): 4, 5. Four integers total."
     },
     {
@@ -6457,8 +6457,8 @@
       "question": "A particle moves as x = 2cos(t), y = 3sin(t). Which equation describes its path?",
       "choices": {
         "A": "x²/4 + y²/9 = 1",
-        "B": "x²/9 + y²/4 = 1",
-        "C": "x² + y² = 6",
+        "B": "x² + y² = 6",
+        "C": "x²/9 + y²/4 = 1",
         "D": "y = (3/2)x"
       },
       "answer": "A",
@@ -6472,12 +6472,12 @@
       "test": 16,
       "question": "(3x+5)/((x+1)(x−2)) = A/(x+1) + B/(x−2). What is the value of A?",
       "choices": {
-        "A": "−2/3",
+        "A": "−11/3",
         "B": "2/3",
-        "C": "11/3",
-        "D": "−11/3"
+        "C": "−2/3",
+        "D": "11/3"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "3x+5 = A(x−2)+B(x+1). Set x = −1: 2 = −3A → A = −2/3."
     },
     {
@@ -6488,12 +6488,12 @@
       "test": 16,
       "question": "Which function satisfies f(−x) = −f(x) for all x?",
       "choices": {
-        "A": "f(x) = x⁵ − 3x³ + 2x",
-        "B": "f(x) = x⁴ − x² + 1",
-        "C": "f(x) = x³ + x²",
-        "D": "f(x) = |x³|"
+        "A": "f(x) = |x³|",
+        "B": "f(x) = x³ + x²",
+        "C": "f(x) = x⁵ − 3x³ + 2x",
+        "D": "f(x) = x⁴ − x² + 1"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "A function is odd iff every term has an odd exponent. f(x) = x⁵−3x³+2x has only odd-power terms, so f(−x) = −f(x)."
     },
     {
@@ -6504,12 +6504,12 @@
       "test": 16,
       "question": "For f(x) = 3x² − 12x − 15 with roots r₁ and r₂, what is (r₁ + r₂)/2?",
       "choices": {
-        "A": "2",
+        "A": "−1",
         "B": "4",
         "C": "−5/3",
-        "D": "−1"
+        "D": "2"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "By Vieta's, r₁+r₂ = 12/3 = 4. (r₁+r₂)/2 = 2. This is also the x-coordinate of the vertex (axis of symmetry)."
     },
     {
@@ -6536,12 +6536,12 @@
       "test": 16,
       "question": "Which expression is equivalent to log₂(x³) − log₂(4x) + 2?",
       "choices": {
-        "A": "2log₂(x)",
-        "B": "3log₂(x)",
-        "C": "log₂(x)",
-        "D": "log₂(x²)−2"
+        "A": "log₂(x)",
+        "B": "log₂(x²)−2",
+        "C": "2log₂(x)",
+        "D": "3log₂(x)"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "log₂(x³/4x)+2 = log₂(x²/4)+2 = log₂(x²)−log₂(4)+2 = 2log₂x−2+2 = 2log₂x."
     },
     {
@@ -6552,12 +6552,12 @@
       "test": 17,
       "question": "Three numbers satisfy x+y+z = 6, xy+yz+xz = 11, xyz = 6. What is x²+y²+z²?",
       "choices": {
-        "A": "14",
-        "B": "22",
-        "C": "25",
-        "D": "11"
+        "A": "11",
+        "B": "25",
+        "C": "14",
+        "D": "22"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "x²+y²+z² = (x+y+z)²−2(xy+yz+xz) = 36−22 = 14."
     },
     {
@@ -6568,12 +6568,12 @@
       "test": 17,
       "question": "What is the maximum value of 3x + 4y subject to x² + y² = 25?",
       "choices": {
-        "A": "25",
-        "B": "35",
+        "A": "35",
+        "B": "25",
         "C": "20",
         "D": "5√7"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "By Cauchy-Schwarz: (3x+4y)² ≤ (3²+4²)(x²+y²) = 25·25 = 625. Max value = 25, achieved when (x,y) = (15/5, 20/5) = (3, 4)."
     },
     {
@@ -6584,12 +6584,12 @@
       "test": 17,
       "question": "If log(x) + log(x²) = 3 (base 10), what is x?",
       "choices": {
-        "A": "10",
+        "A": "1000",
         "B": "100",
-        "C": "1000",
-        "D": "√10"
+        "C": "√10",
+        "D": "10"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "log(x·x²) = log(x³) = 3 → x³ = 10³ = 1000 → x = 10."
     },
     {
@@ -6601,9 +6601,9 @@
       "question": "The equation x⁴ − 16 = 0 has four solutions. What is the sum of all real solutions?",
       "choices": {
         "A": "0",
-        "B": "4",
-        "C": "2",
-        "D": "−2"
+        "B": "2",
+        "C": "−2",
+        "D": "4"
       },
       "answer": "A",
       "explanation": "x⁴ = 16 → x² = ±4. Real solutions: x² = 4 → x = ±2. Complex: x² = −4 → x = ±2i. Sum of real solutions: 2+(−2) = 0."
@@ -6617,9 +6617,9 @@
       "question": "Solve 2^(2x) − 5·2^x + 4 = 0. What is the sum of all solutions?",
       "choices": {
         "A": "2",
-        "B": "4",
-        "C": "1",
-        "D": "0"
+        "B": "0",
+        "C": "4",
+        "D": "1"
       },
       "answer": "A",
       "explanation": "Let u = 2^x: u²−5u+4 = 0 → (u−1)(u−4) = 0 → u = 1 or u = 4. 2^x = 1 → x = 0; 2^x = 4 → x = 2. Sum = 0+2 = 2."
@@ -6632,12 +6632,12 @@
       "test": 17,
       "question": "If f(x) = 2/(x+3) and g is the inverse of f, what is g(5)?",
       "choices": {
-        "A": "−13/5",
-        "B": "13/5",
-        "C": "−1",
-        "D": "2/8"
+        "A": "−1",
+        "B": "2/8",
+        "C": "13/5",
+        "D": "−13/5"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Inverse: y = 2/(x+3) → x+3 = 2/y → x = 2/y−3. g(x) = 2/x−3 = (2−3x)/x. g(5) = (2−15)/5 = −13/5."
     },
     {
@@ -6648,12 +6648,12 @@
       "test": 17,
       "question": "If f(x) = 1/x and g(x) = f(2x+1) + 3, what is the vertical asymptote of g?",
       "choices": {
-        "A": "x = −1/2",
+        "A": "x = −3",
         "B": "x = −1",
-        "C": "x = 1/2",
-        "D": "x = −3"
+        "C": "x = −1/2",
+        "D": "x = 1/2"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "g(x) = 1/(2x+1)+3. Vertical asymptote where 2x+1 = 0 → x = −1/2."
     },
     {
@@ -6664,12 +6664,12 @@
       "test": 17,
       "question": "If p + q = 5 and p² + q² = 13, what is p⁴ + q⁴?",
       "choices": {
-        "A": "97",
-        "B": "169",
-        "C": "73",
-        "D": "103"
+        "A": "73",
+        "B": "103",
+        "C": "97",
+        "D": "169"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "pq = ((p+q)²−(p²+q²))/2 = (25−13)/2 = 6. p⁴+q⁴ = (p²+q²)²−2(pq)² = 169−2(36) = 169−72 = 97."
     },
     {
@@ -6682,8 +6682,8 @@
       "choices": {
         "A": "−2",
         "B": "2",
-        "C": "−1",
-        "D": "4"
+        "C": "4",
+        "D": "−1"
       },
       "answer": "A",
       "explanation": "p(x) = a(x+2)(x−1)²(x−4). p(0) = a(2)(1)(−4) = −8a = 16 → a = −2."
@@ -6696,12 +6696,12 @@
       "test": 17,
       "question": "Solve: log₃(log₂(log₄(x))) = 0. What is x?",
       "choices": {
-        "A": "16",
-        "B": "64",
-        "C": "256",
-        "D": "4"
+        "A": "256",
+        "B": "16",
+        "C": "4",
+        "D": "64"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "log₃(·) = 0 → log₂(log₄(x)) = 1 → log₄(x) = 2 → x = 4² = 16."
     },
     {
@@ -6712,12 +6712,12 @@
       "test": 17,
       "question": "A farmer has 240 m of fencing and encloses a rectangle with one side along a river (no fence needed on that side). What width (perpendicular to river) maximizes area?",
       "choices": {
-        "A": "60 m",
-        "B": "80 m",
-        "C": "120 m",
-        "D": "40 m"
+        "A": "40 m",
+        "B": "60 m",
+        "C": "80 m",
+        "D": "120 m"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "Let w = width. Length = 240−2w. Area = w(240−2w) = −2w²+240w. Maximized at w = −240/(2·(−2)) = 60 m."
     },
     {
@@ -6728,12 +6728,12 @@
       "test": 17,
       "question": "How many pairs (x, y) satisfy both x²+y² = 36 and (x−3)²+y² = 9?",
       "choices": {
-        "A": "1",
-        "B": "2",
+        "A": "2",
+        "B": "1",
         "C": "0",
         "D": "4"
       },
-      "answer": "A",
+      "answer": "B",
       "explanation": "From the second equation: y² = 9−(x−3)². Substitute into the first: x²+9−(x−3)² = 36 → 6x = 36 → x = 6. Then y² = 9−9 = 0 → y = 0. Exactly one solution: (6, 0)."
     },
     {
@@ -6744,12 +6744,12 @@
       "test": 17,
       "question": "For f(x) = x² + 2x, what is [f(x+h) − f(x)] / h (h ≠ 0)?",
       "choices": {
-        "A": "2x + h + 2",
+        "A": "2x + h",
         "B": "2x + 2",
-        "C": "2x + h",
-        "D": "h + 2"
+        "C": "h + 2",
+        "D": "2x + h + 2"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "f(x+h) = (x+h)²+2(x+h) = x²+2xh+h²+2x+2h. [f(x+h)−f(x)]/h = (2xh+h²+2h)/h = 2x+h+2."
     },
     {
@@ -6760,12 +6760,12 @@
       "test": 17,
       "question": "For positive x and y with x + y = 4, what is the maximum value of xy³?",
       "choices": {
-        "A": "27",
-        "B": "16",
-        "C": "64",
-        "D": "32"
+        "A": "64",
+        "B": "32",
+        "C": "27",
+        "D": "16"
       },
-      "answer": "A",
+      "answer": "C",
       "explanation": "Let f(y) = (4−y)y³ with x = 4−y. f'(y) = y²(12−4y) = 0 → y = 3, x = 1. Maximum = 1·27 = 27."
     },
     {
@@ -6776,12 +6776,12 @@
       "test": 17,
       "question": "A function satisfies f(x) + f(1−x) = 1 for all x. If f(1/3) = 2/5, what is f(2/3)?",
       "choices": {
-        "A": "3/5",
-        "B": "2/5",
-        "C": "1/5",
-        "D": "4/5"
+        "A": "4/5",
+        "B": "1/5",
+        "C": "2/5",
+        "D": "3/5"
       },
-      "answer": "A",
+      "answer": "D",
       "explanation": "Set x = 1/3: f(1/3)+f(2/3) = 1 → 2/5+f(2/3) = 1 → f(2/3) = 3/5."
     }
   ]
